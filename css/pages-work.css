@@ -1,0 +1,100 @@
+#pages-work{
+	padding-top: 18em;
+}
+h3{
+	font-size: 2em;
+	padding: 1em 0;
+	text-transform: uppercase;
+	color: #34495E;
+}
+.logo-company img{
+	display: block;
+	margin: 4em auto;
+	padding-top: 2em;
+}
+#carousel-project {
+	width: 100%;
+    margin: auto;
+}
+#carousel-project img {
+	width: 100%;
+}
+.description{
+	width: 80%;
+	display: block;
+	margin: 4em auto;
+}
+.description p{
+	font-size: 1.5em;
+	line-height: 1.6;
+	margin-top: 2em;
+}
+.description a{
+	font-size: .9em;
+	border: 1px solid #34495E;
+	color: #34495E;
+	padding: 1em;
+	line-height: 6;
+	-moz-box-shadow: 10px 10px 40px 0px #cfcfcf;
+	-webkit-box-shadow: 10px 10px 40px 0px #cfcfcf;
+	-o-box-shadow: 10px 10px 40px 0px #cfcfcf;
+	box-shadow: 10px 10px 40px 0px #cfcfcf;
+	text-decoration: none;
+}
+.description a:hover{
+	background-color: #34495E;
+	color: #fff;
+}
+.projects{
+	margin-bottom: 2em;
+	padding: 0;
+}
+.projects ul {
+	height: 5em;
+	background-color: #F2F1EF;
+}
+.projects li{
+	font-size: 1.2em;
+	padding-top: .9em;
+}
+.projects li a{
+	color: #34495E;
+	text-decoration: none;
+}
+.projects li a:hover{
+	background-color: #ECECEC;
+}
+@media screen and (min-width: 768px) {
+	#pages-work{
+		padding-top: 8.8em;
+	}
+	.description{
+		width: 50%;
+	}
+	.description li{
+		font-size: 1.3em;
+	}
+	#carousel-project {
+		width: 70%;
+	}
+	.projects li{
+		font-size: 1.5em;
+	}
+	.projects li a{
+		padding: .95em 2em 1.1em 2em;
+	}
+	.description a{
+		font-size: 1.3em;
+	}
+	.logo-company img{
+		padding-top: 4em;
+	}
+}
+@media screen and (min-width: 1500px) {
+	#pages-work{
+		padding-top: 9.8em;
+	}
+	#carousel-project {
+		width: 60%;
+	}
+}

@@ -1,0 +1,367 @@
+/*---------------------------------- fonts --------------------------------------*/
+@font-face{
+    font-family : "montserrat";
+    src : url('../fonts/montserrat-regular.ttf') format('ttf'),
+    	  url('../fonts/montserrat-regular.woff') format('woff');
+          font-style: normal;
+          font-weight: normal;
+}
+/*------------------------------ config générales -------------------------------*/
+h1, h2, h3, h4, h5, p, li, a{
+	font-family: "montserrat";
+}
+h1{
+	margin-top: 1.5em;
+	color: #E74C3C;
+	font-size: 2.5em;
+}
+h2 {
+	padding-top: 1em;
+}
+h3{
+	color: #fff;
+	margin: 1.5em 0;
+}
+.bigger{
+	font-size: 1.7em;
+}
+p{
+	line-height: 1.6;
+}
+.red{
+	color: #F44336;
+}
+.yellow{
+	color: #FFA726;
+}
+.turquoise{
+	color: #009688;
+}
+.row{
+	margin-left: 0px;
+}
+/*---------------------------------- header --------------------------------------*/
+header {
+	background-color: #34495E;
+}
+.first-plan {
+	z-index: 1000;
+}
+.lr {
+	width: 6em;
+	padding-top: 1.5em;
+}
+header .dropdown {
+	padding: 1em;
+	text-align: center;
+}
+header .dropdown:first-child {
+	padding-top: 2.5em;
+}
+header .dropdown .dropdown-menu {
+	border-radius: 0;
+	border: 0;
+	padding: 0;
+	background-color: #34495E;
+	box-shadow: none;
+	left: 0;
+	right: 0;
+}
+header .dropdown .dropdown-menu li {
+	padding: 0;
+	width: 100%;
+}
+header .dropdown .dropdown-menu li a {
+	padding: 1em;
+	font-size: .9em;
+	color: #FFF;
+	text-align: center;
+}
+header .dropdown .dropdown-menu li a:hover {
+	background-color: #2C3F52;
+}
+header .dropdown button {
+	background: transparent;
+    border: 0px;
+    font-size: 1em;
+}
+header .dropdown button:hover {
+	background: transparent;
+}
+header button:focus {
+	outline: none;
+}
+#dropdown-web {
+	color: #009688;
+}
+#dropdown-product {
+	color: #FCBE32;
+}
+#dropdown-graphism {
+	color: #FF5F2E;
+}
+#dropdown-retail {
+	color: #E1EEF6;
+}
+/*---------------------------------- main --------------------------------------*/
+/*------------------- background section -------------------*/
+#bloc-web{
+	background-color: #004E66;
+}
+#bloc-web:hover{
+	background-color: #446CB2;
+}
+#bloc-product{
+	background-color: #FCBE32;
+}
+#bloc-product:hover{
+	background-color: #F39313;
+}
+#bloc-graphism{
+	background-color: #FF5F2E;
+}
+#bloc-graphism:hover{
+	background-color: #E24139;
+}
+#bloc-retail-design{
+	background-color: #E1EEF6;
+}
+#bloc-retail-design:hover{
+	background-color: #d1e1e8;
+}
+#bloc-web, #bloc-product, #bloc-graphism, #bloc-retail-design{
+	position: relative;
+	padding-top: 80%;
+}
+#bloc-web img, #bloc-product img, #bloc-graphism img, #bloc-retail-design img{
+	position: absolute;
+	display: block;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 65%;
+}
+.description-bloc{
+	float: right;
+	margin-right: 1em;
+	color: white;
+	opacity: .5;
+	font-size: 2.3em;
+}
+#bloc-web:hover .description-bloc,
+#bloc-product:hover .description-bloc,
+#bloc-graphism:hover .description-bloc,
+#bloc-retail-design:hover .description-bloc {
+	opacity: .5;
+	transition: .3s ease-in;
+}
+/*---------------------------------- introduction bloc --------------------------------------*/
+.particles-js-canvas-el {
+	position: absolute;
+}
+#my-introduction{
+	background-color: #ECF0F1;
+	padding: 3em 0;
+}
+#my-introduction p{
+	font-size: 1.4em;
+	color: #2C3E50;
+}
+.direction{
+	width: 8em;
+	height: 8em;
+	background-color: #E74C3C;
+	border-radius: 50%;
+	margin-top: 2em;
+	display: block;
+	margin: 0 auto;
+}
+.direction .arrow-down{
+	padding: 1em;
+}
+.welcome-text h2{
+	text-transform: uppercase;
+	color: #F44336;
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+/*---------------------------------- skills section --------------------------------------*/
+#skills{
+	background-color: #ECF0F1;
+	padding-bottom: 4em;
+}
+#skills h2{
+	color: #FFA726;
+}
+.pochoir{
+	margin: 3em 0;
+}
+#skills .skills-description p{
+	font-size: 1.2em;
+}
+#skills .skills-description ul{
+	display: none;
+}
+/*---------------------------------- presta section --------------------------------------*/
+#presta{
+	background-color: #2C3E50;
+	padding-bottom: 3em;
+}
+#presta h2:first-child{
+	color: #F44336;
+	padding-bottom: 2em;
+}
+#presta img{
+	margin-top: 2em;
+}
+#presta p{
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1.6;
+	padding: 0 1em;
+}
+#presta h3 {
+	color: #26B99A;
+	margin-bottom: 0;
+}
+/*---------------------------------- footer contact --------------------------------------*/
+#contact{
+	background-color: #333333;
+	z-index: 2;
+	padding: 1em 0;
+}
+#contact .logo-contact{
+	padding: 1.5em 0;
+}
+#contact .logo-contact img{
+	width: 4.5em;
+}
+#contact p{
+	font-size: 1.4em;
+	color: #fff;
+	padding-top: 1em;
+}
+/*---------------------------------- responsive --------------------------------------*/
+@media screen and (min-width: 768px){
+	header{
+		position: fixed !important;
+		z-index: 1;
+	}
+	header li{
+		color: white;
+		display: inline-block;
+		padding: 2em 1em;
+		font-size: 1.4em;
+	}
+	header .dropdown {
+		padding: 0;
+		text-align: center;
+	}
+	header .dropdown:first-child {
+		padding-top: 0;
+	}
+	header .dropdown button {
+		font-size: .8em;
+	}
+	header .dropdown .dropdown-menu {
+		position: absolute;
+		left: -13em;
+		top: 6.35em;
+	}
+	header .dropdown .dropdown-menu li a {
+		text-align: right;
+	}
+	#bloc-web, #bloc-product, #bloc-graphism, #bloc-retail-design{
+		padding-top: 40%;
+	}
+	#bloc-product p,	#bloc-retail-design p{
+		float: left;
+		margin-left: .5em;
+	}
+	#bloc-web img, #bloc-product img, #bloc-graphism img, #bloc-retail-design img{
+		width: 45%;
+	}
+	/*---------------------------------- introduction bloc --------------------------------------*/
+	#my-introduction{
+		padding: 6em 0;
+	}
+	.welcome-text{
+		margin-top: 5em;
+	}
+	#my-introduction p{
+		font-size: 1.8em;
+		padding-top: 1em;
+	}
+/*---------------------------------- skills bloc --------------------------------------*/
+	.skills-description{
+		margin-top: 4em;
+	}
+	#skills .skills-description p{
+		font-size: 1.5em;
+		margin-top: 1.5em;
+	}
+	#skills .skills-description ul{
+		display: block;
+		padding-left: 2em;
+		margin-top: 1em;
+	}
+	#skills .skills-description li{
+		font-size: 1.3em;
+		line-height: 1.5;
+	}
+	.pochoir{
+		width: 20em;
+		margin-top: 5em;
+	}
+/*---------------------------------- presta bloc --------------------------------------*/
+	#presta img{
+		height: 12em;
+	}
+/*---------------------------------- contact footer --------------------------------------*/
+	#contact p{
+		padding-top: 2em;
+	}
+}
+@media screen and (min-width: 780px){
+	#my-introduction{
+		//background-color: #ECF0F1;
+		//background-image: url('../img/bg-tino.png');
+		//background-repeat: no-repeat;
+		//background-attachment: fixed;
+		//background-position: 50% 50%;
+		//-webkit-background-size: cover;
+		//-moz-background-size: cover;
+		//-o-background-size: cover;
+		//background-size: cover;
+	}
+}
+@media screen and (min-width: 1500px){
+	header li{
+		padding: 2em;
+		font-size: 1.6em;
+	}
+	#bloc-web, #bloc-product, #bloc-graphism, #bloc-retail-design{
+		padding-top: 30%;
+	}
+	.description-bloc{
+		font-size: 3em;
+	}
+	.description-bloc{
+		opacity: 0;
+	}
+	#bloc-web:hover .description-bloc,
+	#bloc-product:hover .description-bloc,
+	#bloc-graphism:hover .description-bloc,
+	#bloc-retail-design:hover .description-bloc {
+		opacity: .5;
+		transition: .3s ease-in;
+	}
+	#bloc-web img, #bloc-product img, #bloc-graphism img, #bloc-retail-design img{
+		width: 35%;
+	}
+	#my-introduction{
+		background-size: 90%;
+	}
+}

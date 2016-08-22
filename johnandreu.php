@@ -36,12 +36,23 @@
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 				 	<li data-target="#carousel-project" data-slide-to="0" class="active"></li>
+				 	<li data-target="#carousel-project" data-slide-to="1"></li>
+				 	<li data-target="#carousel-project" data-slide-to="2"></li>
 				</ol>
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="img/img-web/john-andreu/johnandreu2.png" alt="construction du site internet de l'ostéopathe John Andreu"/>
+						<img src="img/img-web/john-andreu/johnandreu5.jpg" alt="construction du site internet de l'ostéopathe John Andreu"/>
+					</div>
+					<div class="item">
+						<img src="img/img-web/john-andreu/johnandreu3.jpg" alt="construction du site internet de l'ostéopathe John Andreu"/>
+					</div>
+					<div class="item">
+						<img src="img/img-web/john-andreu/johnandreu4.jpg" alt="construction du site internet de l'ostéopathe John Andreu"/>
+					</div>
+					<div class="item">
+						<img src="img/img-web/john-andreu/johnandreu2.jpg" alt="construction du site internet de l'ostéopathe John Andreu"/>
 					</div>
 				</div>
 

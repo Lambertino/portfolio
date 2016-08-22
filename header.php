@@ -12,10 +12,10 @@
 					  	web
 					</button>
 					<ul class="dropdown-menu animated slideInDown" aria-labelledby="dropdown-web">
+						<li><a href="jeangueno.php">Jean Guéno</a></li>
 					  	<li><a href="gueno.php">Jean-Marie Guéno</a></li>
 					  	<li><a href="johnandreu.php">John Andreu</a></li>
 					  	<li><a href="sensass.php">Sensass !</a></li>
-					  	<li><a href="grand-large.php">Grand Large</a></li>
 					  	<li><a href="boobs.php">Boobs</a></li>
 					</ul>
 				</div>

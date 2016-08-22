@@ -44,6 +44,7 @@ h3{
 .description a:hover{
 	background-color: #34495E;
 	color: #fff;
+	transition: all .4s;
 }
 .projects{
 	margin-bottom: 2em;
@@ -60,6 +61,7 @@ h3{
 .projects li a{
 	color: #34495E;
 	text-decoration: none;
+	font-size: .8em;
 }
 .projects li a:hover{
 	background-color: #ECECEC;

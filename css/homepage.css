@@ -40,6 +40,9 @@ p{
 .row{
 	margin-left: 0px;
 }
+.no-margin {
+	margin: 0;
+}
 /*---------------------------------- header --------------------------------------*/
 header {
 	background-color: #34495E;
@@ -76,6 +79,11 @@ header .dropdown .dropdown-menu li a {
 	font-size: .9em;
 	color: #FFF;
 	text-align: center;
+}
+@media screen and (max-width: 767px) {
+	header .dropdown .dropdown-menu li a {
+		padding: 1.5em 1em;
+	}
 }
 header .dropdown .dropdown-menu li a:hover {
 	background-color: #2C3F52;
@@ -268,7 +276,7 @@ header button:focus {
 	header .dropdown .dropdown-menu {
 		position: absolute;
 		left: -13em;
-		top: 6.35em;
+		top: 5.35em;
 	}
 	header .dropdown .dropdown-menu li a {
 		text-align: right;

@@ -1,5 +1,5 @@
 		<footer class="col-xs-12" id="contact">
-			<div class="row text-center">
+			<div class="row text-center no-margin">
 				<div class="hidden-xs col-sm-offset-1 col-sm-1 logo-contact">
 					<img src="img/logo-lr.svg" alt="logo Lambert Roudil">
 				</div>

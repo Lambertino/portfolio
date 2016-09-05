@@ -1,5 +1,5 @@
 <section class="row no-margin">
-	<a href="jeangueno.php">
+	<a href="toog.php">
 		<section id="bloc-web" class="col-xs-12 col-sm-6 bloc-homepage">
 			<img src="img/web.svg" alt="lien vers les créations webdesign" class="animated infinite">
 			<p class="description-bloc"><i class="glyphicon glyphicon-send"></i> Web</p>

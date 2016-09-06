@@ -12,6 +12,7 @@
 					  	web
 					</button>
 					<ul class="dropdown-menu animated slideInDown" aria-labelledby="dropdown-web">
+						<li><a href="toog.php">Toog</a></li>
 						<li><a href="jeangueno.php">Jean Guéno</a></li>
 					  	<li><a href="gueno.php">Jean-Marie Guéno</a></li>
 					  	<li><a href="johnandreu.php">John Andreu</a></li>

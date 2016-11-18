@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, designer global-Portfolio</title>
+		<title>Lambert Roudil, projet John Andreu</title>
 		<meta name="description" content="Développement du site vitrine et de l'identité visuelle de John Andreu, ostéopathe des plus prestigieux SPA et palaces parisiens, tels que le Fouquet's et le George V." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
+
 		<link rel="icon" type="image/png" href="img/favicon.png" >
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/homepage.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/pages-work.css">
+		<link rel="stylesheet" href="web/styles/screen.min.css">
+
 		<script type="text/javascript" src="js/jquery.1.6.2.js"></script>
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
@@ -72,8 +71,8 @@
 				<h1>John Andreu</h1>
 				<p>Développement du site vitrine et de l'identité visuelle de <strong>John Andreu</strong> ostéopathe
 					des plus prestigieux SPA et palaces parisiens, tels que le Fouquet's et le George V.</p>
-				<a href="http://www.lambertroudil.com/johnandreu/" target="_blank"><strong>
-					<i class="glyphicon glyphicon-send"></i> visite du site de John Andreu</strong>
+				<a href="http://www.lambertroudil.com/johnandreu/" class="btn btn-ghost" target="_blank"><strong>
+					Visite du site de John Andreu</strong>
 				</a>
 			</div>
 

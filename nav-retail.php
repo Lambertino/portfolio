@@ -1,8 +1,14 @@
-<div class="projects hidden-xs col-sm-12">
-    <nav>
-        <ul>
-            <li class="col-xs-12 col-sm-offset-4 col-sm-4 col-md-3"><a href="5e-avenue.php">5e Avenue</a></li>
-            <li class="col-xs-12 col-sm-4"><a href="carre-vert.php">carrévert</a></li>
-        </ul>
-    </nav>
+<div class="col-sm-12 nav">
+    <div class="container">
+        <div class="dropdown">
+            <button id="dLabel" class="btn btn-ghost" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Les autres projets
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu animated slideInUp" aria-labelledby="dLabel">
+                <li><a href="5e-avenue.php">5e Avenue</a></li>
+                <li><a href="carre-vert.php">Carré vert</a></li>
+            </ul>
+        </div>
+    </div>
 </div>

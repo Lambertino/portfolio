@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, designer global-Portfolio</title>
+		<title>Lambert Roudil, projet humanitaire Diwa</title>
 		<meta name="description" content="Diwa est une entreprise sociale faisant partie de l'ONG Gawad Kalinga basée aux Philippines. Elle s'est spécialisée dans les huiles essentielles naturelles et dans les huiles de massage. La construction de l'identité de la marque Diwa s'est fondée sur la simplicité et la clarté afin d'utiliser une image identifiable et mémorisable en une seconde." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
+
 		<link rel="icon" type="image/png" href="img/favicon.png" >
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/homepage.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/pages-work.css">
+		<link rel="stylesheet" href="web/styles/screen.min.css">
+
 		<script type="text/javascript" src="js/jquery.1.6.2.js"></script>
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>

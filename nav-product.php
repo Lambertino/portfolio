@@ -1,11 +1,17 @@
-<div class="projects hidden-xs col-sm-12">
-    <nav>
-        <ul>
-            <li class="col-xs-12 col-sm-offset-1 col-sm-2"><a href="grum.php">grum</a></li>
-            <li class="col-xs-12 col-sm-2"><a href="catoast.php">çatoast!</a></li>
-            <li class="col-xs-12 col-sm-2"><a href="retail.php">mobiliers</a></li>
-            <li class="col-xs-12 col-sm-2"><a href="gk-chair.php">bamboo</a></li>
-            <li class="col-xs-12 col-sm-2"><a href="shoes.php">shoes</a></li>
-        </ul>
-    </nav>
+<div class="col-sm-12 nav">
+    <div class="container">
+        <div class="dropdown">
+            <button id="dLabel" class="btn btn-ghost" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Les autres projets
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu animated slideInUp" aria-labelledby="dLabel">
+                <li><a href="grum.php">Grum</a></li>
+                <li><a href="catoast.php">Çatoast!</a></li>
+                <li><a href="retail.php">Mobiliers</a></li>
+                <li><a href="gk-chair.php">Bamboo Chair</a></li>
+                <li><a href="shoes.php">Shoes</a></li>
+            </ul>
+        </div>
+    </div>
 </div>

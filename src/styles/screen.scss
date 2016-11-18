@@ -1,0 +1,16 @@
+@import 'base/ui-kit';
+@import 'base/fonts';
+
+@import 'base/normalize';
+@import 'base/global';
+
+// Import Components
+@import 'components/header';
+@import 'components/footer';
+
+// Import Layouts
+@import 'layouts/homepage';
+@import 'layouts/work-page';
+
+// Import Plugins
+@import 'plugins/animate';

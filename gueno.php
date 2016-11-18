@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, designer global-Portfolio</title>
+		<title>Lambert Roudil, projet Jean-Marie Guéno</title>
 		<meta name="description" content="Développement du site vitrine du designer Jean-Marie Guéno,www.jeanmariegueno.com, diplômé en arts appliqués de l’école Pivaut. Le designer, à la croisée des chemins entre le monde de l’art et celui l'entreprise, trouve son inspiration au cœur du pays guérandais entre marais salants et cité médiévale." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
+
 		<link rel="icon" type="image/png" href="img/favicon.png" >
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/homepage.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/pages-work.css">
+		<link rel="stylesheet" href="web/styles/screen.min.css">
+
 		<script type="text/javascript" src="js/jquery.1.6.2.js"></script>
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
@@ -73,8 +72,8 @@
 				<h1>Jean-Marie Guéno</h1>
 				<p>Développement du site vitrine du designer <strong>Jean-Marie Guéno</strong> diplômé en arts appliqués de l’école Pivaut.</p>
 				<p>HTML, CSS, jQuery, Bootstrap</p>
-				<a href="http://jeanmariegueno.com/" target="_blank"><strong>
-					<i class="glyphicon glyphicon-send"></i> visite du site</strong>
+				<a href="http://jeanmariegueno.com/" class="btn btn-ghost" target="_blank"><strong>
+					Visite du site</strong>
 				</a>
 			</div>
 

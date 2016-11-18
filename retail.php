@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, designer global-Portfolio</title>
+		<title>Lambert Roudil, projets mobiliers sur mesure</title>
 		<meta name="description" content="Le retail-design est la création d’espace de commerce ou plus précisément l'étude de l’agencement intérieur pour valoriser les produits vendus, soigner l’esthétisme extérieur pour inciter les consommateurs à entrer. Le designer Lambert Roudil vous présente l'ensemble de ses collections de mobilier destinées aux magasins." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
+
 		<link rel="icon" type="image/png" href="img/favicon.png" >
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/homepage.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/pages-work.css">
+		<link rel="stylesheet" href="web/styles/screen.min.css">
+
 		<script type="text/javascript" src="js/jquery.1.6.2.js"></script>
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>

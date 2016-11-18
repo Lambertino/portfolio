@@ -1,11 +1,11 @@
 <div class="col-sm-12 nav">
-    <div class="container no-padding">
-        <div class="dropdown pull-right">
-            <button id="dLabel" class="btn-ghost" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Les autres projets
+    <div class="container">
+        <div class="dropdown">
+            <button id="dLabel" class="btn btn-ghost" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Les autres projets web
                 <span class="caret"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <ul class="dropdown-menu animated slideInUp" aria-labelledby="dLabel">
                 <li><a href="toog.php">Toog</a></li>
                 <li><a href="jeangueno.php">Jean Guéno</a></li>
                 <li><a href="gueno.php">Jean-Marie Guéno</a></li>

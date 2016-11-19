@@ -96,7 +96,7 @@
 p, li, a, button {
   font-family: 'Karla-Regular'; }
 
-h1, h2, h3, h4, h5, strong {
+h2, h3, h4, h5, strong {
   font-family: 'Karla-Bold'; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -719,6 +719,9 @@ footer {
   width: 80%;
   display: block;
   margin: 4em auto; }
+  #pages-work .description h1 {
+    font-family: 'MarkMyWords';
+    font-size: 3em; }
   #pages-work .description p {
     font-size: 1.2em;
     line-height: 1.6;

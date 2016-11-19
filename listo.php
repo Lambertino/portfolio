@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Listo</title>
-		<meta name="description" content="Boobs est une marque de lingerie fictive. Présentation de son site vitrine et de l'identité visuelle de la marque de lingerie Boobs" />
+		<title>Lambert Roudil et Listo</title>
+		<meta name="description" content="Exposition du logotype de la start-up française Listo" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>

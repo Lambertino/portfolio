@@ -17,7 +17,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    	<ul class="nav navbar-nav navbar-right">
 			    	<li><a href="toog.php" class="turquoise">Web</a></li>
-			    	<li><a href="thinkovery.php" class="red">Print</a></li>
+			    	<li><a href="listo.php" class="red">Print</a></li>
 			    	<li><a href="grum.php" class="yellow">Produit</a></li>
 			    	<li><a href="5e-avenue.php" class="white">Espace</a></li>
 		    	</ul>

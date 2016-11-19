@@ -6,6 +6,7 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu animated slideInUp" aria-labelledby="dLabel">
+                <li><a href="listo.php">Listo</a></li>
                 <li><a href="thinkovery.php">Thinkovery</a></li>
                 <li><a href="diwa.php">Diwa</a></li>
                 <li><a href="owly_fruit.php">OwlyFruit</a></li>

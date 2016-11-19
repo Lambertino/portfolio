@@ -13,7 +13,7 @@
 		</section>
 	</a>
 
-	<a href="thinkovery.php">
+	<a href="listo.php">
 		<section id="bloc-graphism" class="col-xs-12 col-sm-6 item">
 			<img src="img/graphisme.svg" alt="lien vers les créations graphiques" class="animated infinite">
 			<p class="item-category">Print</p>

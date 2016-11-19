@@ -12,6 +12,8 @@
             -webkit-align-items: center; /* Safari */
         flex-wrap: wrap;
             -webkit-flex-wrap: wrap; /* Safari */
+
+        overflow: hidden;
         .my-introduction-ct {
             h1 {
                 font-family: 'MarkMyWords';
@@ -31,6 +33,9 @@
             p {
                 font-size: 1.4em;
                 color: $blue;
+                @media screen and (max-width: 767px) {
+                    font-size: 1.1em;
+                }
             }
             .direction {
                 width: 50px;
@@ -41,6 +46,7 @@
             width: 98% !important;
             top: 0;
             bottom: 0;
+            right: .65em;
             @media screen and (max-width: 780px) {
                 width: 96% !important;
             }
@@ -149,8 +155,20 @@
             h3 {
                 font-family: 'MarkMyWords';
                 font-size: 3em;
+                position: relative;
                 color: $red;
                 margin-bottom: 1em;
+                &::after {
+                    content: '';
+                    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAICAYAAAClF5zJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNrkVcENwjAMbDfIiy/dgPx4NhvACKzARh0lffJLN3C+vMIG2NJZsqqqqipQVbBkOW6ixJe7uFX1Z1ZvcejzdnYcPLvGsRXMteZbb3KHNVPWIyb2eOge5auAGYwAaABEDjsiv2IJIY8GtBboMLfWCvYJJhe/I1L9AaYc3yLxWA65sL/YTwCm7IWFW6YZ5vSyMsbtwj2FceIau9UMMzhl0ANcMyFNW7zEwRRNU2DH8tvkDUOiCswbthIKHwyIwkWn3TQt00wCJOMNsIx3J/Kg3XZpI099Exnyir/4W3oLMABrY0qpSq5e2QAAAABJRU5ErkJggg==') no-repeat;
+                    width: 60px;
+                    height: 8px;
+                    position: absolute;
+                    margin: auto;
+                    bottom: -.3em;
+                    right: 0;
+                    left: 0;
+                }
             }
         }
     }

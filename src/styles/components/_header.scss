@@ -39,6 +39,7 @@ header {
             }
         }
         .navbar-brand {
+            height: 5em;
             @media screen and (max-width: 767px) {
                 height: 3.5em;
                 img {

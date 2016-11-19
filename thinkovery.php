@@ -65,9 +65,18 @@
 
 			<div class="description">
 				<h1>Thinkovery</h1>
-				<p>Agence nantaise, thinkovery.com vulgarise les savoirs scientifiques les plus divers, via de courtes vidéos donnant la parole à des experts.</p>
-				<p>Avec le magazine "Thinkovery", tiré à 11.000 exemplaires avec des articles relativement brefs dans l'ensemble, l'agence nous propose 150 pages au graphisme particulièrement soigné</p>
-				<p>Ce projet est un travail de mise en page rigoureux (choix de la typographie, rythme des paragraphes etc...) afin de rendre la lecture confortable et plus fluide.</p>
+				<p>
+					Magazine nantais, <a href="http://www.thinkovery.com/" target="_blank">Thinkovery</a> vulgarise les
+					savoirs scientifiques les plus divers avec des vidéos donnant la parole à des experts, des articles, et des infographies.
+				</p>
+				<p>
+					Avec le magazine "Thinkovery", tiré à 11.000 exemplaires avec des articles relativement brefs dans
+					l'ensemble, l'agence propose 150 pages au graphisme particulièrement soigné.
+				</p>
+				<p>
+					Ce projet est un travail de mise en page rigoureux (choix de la typographie, rythme des paragraphes etc...)
+					afin de rendre la lecture confortable et fluide.
+				</p>
 			</div>
 
 		</main>

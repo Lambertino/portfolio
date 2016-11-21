@@ -1,7 +1,7 @@
 	<footer class="col-xs-12">
 		<div class="row text-center no-margin">
 			<div class="hidden-xs col-sm-offset-1 col-sm-1 logo-contact">
-				<img src="img/logo-lr.svg" alt="logo Lambert Roudil">
+				<img src="img/logotype-lambert-roudil-footer.png" alt="Bienvenue sur le site de Lambert Roudil, vous êtes en bas de page">
 			</div>
 			<div class="col-sm-2">
 				<p class="hidden-xs"">Lambert Roudil</p>

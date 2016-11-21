@@ -9,14 +9,12 @@
 			    	<span class="icon-bar"></span>
 			    	<span class="icon-bar"></span>
 			    </button>
-			    <a href="index.php" class="scroll navbar-brand">
-			    	<img class="animated" src="img/logo-lr.svg" alt="logo du designer Lambert Roudil">
-			    </a>
+			    <a href="index.php" class="navbar-brand"></a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    	<ul class="nav navbar-nav navbar-right">
-			    	<li><a href="toog.php" class="turquoise">Web</a></li>
+			    	<li><a href="amebat.php" class="turquoise">Web</a></li>
 			    	<li><a href="listo.php" class="red">Print</a></li>
 			    	<li><a href="grum.php" class="yellow">Produit</a></li>
 			    	<li><a href="5e-avenue.php" class="white">Espace</a></li>

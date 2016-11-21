@@ -494,7 +494,7 @@ header {
     border: 0 none;
     margin-bottom: 0; }
     header .navbar-default .navbar-toggle {
-      margin-top: 1em;
+      margin-top: 1.3em;
       margin-right: 3em;
       border: 0 none; }
       header .navbar-default .navbar-toggle:focus {
@@ -502,12 +502,17 @@ header {
       header .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFFFFF; }
     header .navbar-default .navbar-brand {
-      height: 5em; }
-      @media screen and (max-width: 767px) {
+      background: url('../../img/logotype-lambert-roudil.png') no-repeat top;
+      width: 65px;
+      height: 65px;
+      margin: .2em 0; }
+      @media screen and (min-width: 768px) {
         header .navbar-default .navbar-brand {
-          height: 3.5em; }
-          header .navbar-default .navbar-brand img {
-            width: 2.2em; } }
+          margin-top: .6em; } }
+      header .navbar-default .navbar-brand:hover {
+        background-position: bottom;
+        -webkit-transition: all .1s ease-in;
+                transition: all .1s ease-in; }
 
 /***********************************************************************************************************************
 **************************************                  Footer                   ***************************************
@@ -687,6 +692,11 @@ footer {
   color: #34495E;
   padding: 1em 0;
   text-transform: uppercase; }
+#pages-work .logo-company a img:hover {
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-transition: all .4s ease-in;
+          transition: all .4s ease-in; }
 #pages-work .logo-company img {
   display: block;
   margin: 2em auto; }
@@ -705,6 +715,13 @@ footer {
       width: 60%; } }
   #pages-work .carousel img {
     width: 100%; }
+  #pages-work .carousel .carousel-control.left, #pages-work .carousel .carousel-control.right {
+    background: transparent; }
+    #pages-work .carousel .carousel-control.left:hover, #pages-work .carousel .carousel-control.right:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: all .1s ease-in;
+              transition: all .1s ease-in; }
   #pages-work .carousel::before {
     content: "";
     position: absolute;
@@ -721,7 +738,18 @@ footer {
   margin: 4em auto; }
   #pages-work .description h1 {
     font-family: 'MarkMyWords';
-    font-size: 3em; }
+    font-size: 3em;
+    margin-bottom: 1em;
+    position: relative; }
+    #pages-work .description h1::after {
+      content: '';
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAICAYAAAClF5zJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAORJREFUeNrkVcENwjAMbDfIiy/dgPx4NhvACKzARh0lffJLN3C+vMIG2NJZsqqqqipQVbBkOW6ixJe7uFX1Z1ZvcejzdnYcPLvGsRXMteZbb3KHNVPWIyb2eOge5auAGYwAaABEDjsiv2IJIY8GtBboMLfWCvYJJhe/I1L9AaYc3yLxWA65sL/YTwCm7IWFW6YZ5vSyMsbtwj2FceIau9UMMzhl0ANcMyFNW7zEwRRNU2DH8tvkDUOiCswbthIKHwyIwkWn3TQt00wCJOMNsIx3J/Kg3XZpI099Exnyir/4W3oLMABrY0qpSq5e2QAAAABJRU5ErkJggg==') no-repeat;
+      width: 60px;
+      height: 8px;
+      position: absolute;
+      margin: auto;
+      bottom: -.3em;
+      left: 0; }
   #pages-work .description p {
     font-size: 1.2em;
     line-height: 1.6;

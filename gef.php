@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Toog</title>
-		<meta name="description" content="Développement du site vitrine de l'agence web nantaise Toog,www.toog.fr" />
+		<title>Lambert Roudil et le Global Estuaries Forum</title>
+		<meta name="description" content="Développement du site de Global Estuaries Forum, espace pour l'ensemble des acteurs impliqués dans la gestion des estuaires à travers le monde." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
@@ -17,13 +17,13 @@
 		<!-- header -->
 		<?php require_once('header.php'); ?>
 
-		<main id="pages-work" class="col-sm-12">
+		<main id="pages-work">
 
 			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
-				<a href="http://www.toog.fr" target="_blank">
-					<img src="img/img-web/toog/logotype-toog.png" alt="logo de l'entreprise Toog, http://www.toog.fr">
+				<a href="http://www.globalestuariesforum.com/" target="_blank">
+					<img src="img/img-web/gef/logotype-gef.jpg" alt="logotype de Global Estuaries Forum, cliquez pour visiter le site sur un nouvel onglet">
 				</a>
 			</div>
 
@@ -40,16 +40,16 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="img/img-web/toog/mobile.jpg" alt="interface du site toog.fr sur téléphone portable"/>
+						<img src="img/img-web/gef/gef-1.jpg" alt="interface du site de l'AMEBAT sur ordinateur portable"/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/toog/tablet.jpg" alt="interface du site toog.fr sur tablette iPad"/>
+						<img src="img/img-web/gef/gef-2.jpg" alt="interface du site de l'AMEBAT sur mobile"/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/toog/laptop.jpg" alt="interface du site toog.fr sur ordinateur portable"/>
+						<img src="img/img-web/gef/gef-3.jpg" alt="interface du site de l'AMEBAT sur tablette"/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/toog/desktop.jpg" alt="interface du site toog.fr sur ordinateur de bureau"/>
+						<img src="img/img-web/gef/gef-4.jpg" alt="interface du site de l'AMEBAT sur ordinateur portable"/>
 					</div>
 				</div>
 
@@ -66,18 +66,20 @@
 			<!-- /end carousel project -->
 
 			<div class="description">
-				<h1>Toog</h1>
+				<h1>Global Estuaries Forum</h1>
 				<p>
-					TOOG est une agence web située à Nantes, spécialisée dans la création et le développement de sites
-					internet, applications web, plateformes digitales.
+					Le <strong>Global Estuaries Forum</strong> permet à différents acteurs de débattre des enjeux d’une
+					gouvernance plus adaptée pour une croissance économique et durable des estuaires et des moyens de
+					fédérer ces territoires afin qu’ils soient perçus et gérés comme des espaces à part entière. Le forum
+					rassemble des délégations de décideurs des grands estuaires du monde pour s’attaquer aux grands défis
+					économiques et environnementaux de demain.
 				</p>
 				<p>
-					Web design et intégration du site de l'agence Toog mettant en valeur ses compétences, son portfolio,
-					son équipe et ses références. La navigation a été élaboré le plus simplement possible afin de montrer
-					l'essentiel au visiteur et client potentiel le plus directement, d'où le choix d'un One-Page.
+					Le CMS <strong>WordPress</strong> a été choisi pour ce projet pour son référencement optimal dans les moteurs de recherche,
+					sa facilité d’utilisation pour l'entreprise, sa grande flexibilité et ses nombreux plugins (ici plugin multilingue)...
+
 				</p>
-				<p>HTML, CSS, jQuery, Bootstrap</p>
-				<a href="http://www.toog.fr" class="btn btn-ghost" target="_blank">
+				<a href="http://www.globalestuariesforum.com/" class="btn btn-ghost" target="_blank">
 					<strong>Visite du site</strong>
 				</a>
 			</div>

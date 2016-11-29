@@ -69,6 +69,7 @@
 						</section>
 					</div>
 				</div>
+				<canvas id="canvas"></canvas>
 			</section>
 
 		</main>

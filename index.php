@@ -48,7 +48,6 @@
 			<section class="row text-center skills">
 				<div class="col-sm-12">
 					<div class="container">
-
 						<section class="item col-sm-6">
 							<h3>2012</h3>
 							<p>BTS Design de produit en alternance<br>à l' École de Design Nantes Atlantique</p>

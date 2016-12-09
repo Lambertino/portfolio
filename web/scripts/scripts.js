@@ -1,14 +1,17 @@
 $( document ).ready(function() {
 
-   $("#portfolio .item").hover(
-      function () {
-        $(this).find('img').addClass('floating');
-      },
-      function () {
-        $(this).find('img').removeClass("floating");
-      }
+    $("#portfolio .item").hover(
+        function () {
+            $(this).find('img').addClass('floating');
+        },
+        function () {
+            $(this).find('img').removeClass("floating");
+        }
     );
 
+    $('.carousel').carousel({
+        interval: 1000
+    })
 
    // particles on skills section
    // http://thenewcode.com/1159/Create-a-Dynamic-Point-Mesh-Animation-with-HTML5-Canvas

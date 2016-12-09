@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil et l'AMEBAT</title>
-		<meta name="description" content="Développement du site de l'AMEBAT,  le Service de Santé au Travail du Bâtiment et des Travaux Publics" />
+		<title>Lambert Roudil et MGS Industries</title>
+		<meta name="description" content="Développement du site de MGS Industries, créé et met au point des produits de sécurité antidérapants pour l’industrie et particuliers" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
@@ -22,7 +22,7 @@
 			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
-				<img src="img/img-web/amebat/logotype-amebat.png" alt="logotype de l'AMEBAT, le Service de Santé au Travail du Bâtiment et des Travaux Publics">
+				<img src="img/img-web/mgs/mgs-industries-logotype.png" alt="logotype de MGS Industries, créé et met au point des produits de sécurité antidérapants">
 			</div>
 
 			<!-- carousel project -->
@@ -38,16 +38,16 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="img/img-web/amebat/amebat-1.jpg" alt="interface du site de l'AMEBAT sur ordinateur portable"/>
+						<img src="img/img-web/mgs/mgs-1.jpg" alt="logotype de MGS Industries avec matière métallisée pour mettre en avant son service de découpe laser"/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/amebat/amebat-2.jpg" alt="interface du site de l'AMEBAT sur mobile"/>
+						<img src="img/img-web/mgs/mgs-2.jpg" alt="présentation de l'interface du site de MGS Industries sur mobile"/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/amebat/amebat-3.jpg" alt="interface du site de l'AMEBAT sur tablette"/>
+						<img src="img/img-web/mgs/mgs-3.jpg" alt="présentation de l'interface du site de MGS Industries sur iMac."/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/amebat/amebat-4.jpg" alt="interface du site de l'AMEBAT sur ordinateur portable"/>
+						<img src="img/img-web/mgs/mgs-4.jpg" alt="Le site de MGS Industries s'adapte très bien sur portable, tablette et ordinateur de bureau."/>
 					</div>
 				</div>
 
@@ -64,18 +64,15 @@
 			<!-- /end carousel project -->
 
 			<div class="description">
-				<h1>AMEBAT</h1>
+				<h1>MGS Industries</h1>
 				<p>
-					L’ <strong>AMEBAT</strong> : « Service de Santé au Travail du Bâtiment et des Travaux Publics » est une association
-					créé en 1985 par les Organismes Professionnelles d’employeurs du BTP, pour permettre aux entreprises
-					de satisfaire à leurs obligations en matière de santé au travail, en mettant à leur disposition des
-					moyens de prévention par le biais d’équipes pluridisciplinaires, afin de préserver la santé physique
-					et mentale des salariés tout au long de leur parcours professionnel.
+					Depuis près de vingt ans, <strong>MGS Industries</strong> créé et met au point des produits de sécurité
+					antidérapants pour l’industrie et particuliers.
 				</p>
 				<p>
-					Développement du site de <strong>l'AMEBAT</strong>. L'utilisation du CMS <a href="https://bolt.cm/" target="_blank">Bolt</a>
-					se justifie par son inferface d'administration userfriendly. Ainsi, l'équipe de l'AMEBAT peut
-					administrer ses actualités quotidiennes, ses offres d'emploi et sa documentation facilement et rapidement.
+					Refonte du site de <strong>MGS Industries</strong>. L'utilisation du CMS <a href="https://bolt.cm/" target="_blank">Bolt</a>
+					se justifie par son inferface d'administration userfriendly. Ainsi, l'équipe de MGS Industries peut
+					administrer son catalogue de produit et ses actualités avec la fonctionnalité multilingue.
 				</p>
 				<p>HTML, SCSS, jQuery, Bolt</p>
 				<a href="#" class="btn btn-ghost disabled" target="_blank">

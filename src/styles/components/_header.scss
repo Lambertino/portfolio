@@ -8,21 +8,6 @@ header {
     @media screen and (min-width: 768px) {
         position: fixed !important;
     }
-    img {
-        width: 3.5em;
-        &:hover {
-            -webkit-animation-name: bounce;
-            animation-name: bounce;
-            -webkit-transform-origin: center bottom;
-            transform-origin: center bottom;
-        }
-    }
-    li {
-        padding: 1.2em 2em;
-        @media screen and (min-width: 1200px) {
-            font-size: 1.2em;
-        }
-    }
     .navbar-default {
         background: transparent;
         border: 0 none;
@@ -31,7 +16,7 @@ header {
             margin-top: 1.3em;
             margin-right: 3em;
             border: 0 none;
-            &:focus {
+            &:hover, &:focus {
                 background: transparent;
             }
             .icon-bar {
@@ -49,6 +34,58 @@ header {
             &:hover {
                 background-position: bottom;
                 transition: all .1s ease-in;
+            }
+        }
+        .navbar-nav {
+            @media screen and (max-width: 768px) {
+                margin: 0 -15px;
+            }
+            li {
+                padding: 1.2em 2em;
+                @include smooth-transition;
+                @media screen and (min-width: 1200px) {
+                    font-size: 1.2em;
+                }
+                // web
+                &:first-child {
+                    &:hover {
+                        -moz-box-shadow: inset 0px 10px 0px 0px $turquoise;
+                        -webkit-box-shadow: inset 0px 10px 0px 0px $turquoise;
+                        -o-box-shadow: inset 0px 10px 0px 0px $turquoise;
+                        box-shadow: inset 0px 10px 0px 0px $turquoise;
+                        filter:progid:DXImageTransform.Microsoft.Shadow(color=$turquoise, Direction=180, Strength=0);
+                    }
+                }
+                // print
+                &:nth-child(2) {
+                    &:hover {
+                        -moz-box-shadow: inset 0px 10px 0px 0px $red;
+                        -webkit-box-shadow: inset 0px 10px 0px 0px $red;
+                        -o-box-shadow: inset 0px 10px 0px 0px $red;
+                        box-shadow: inset 0px 10px 0px 0px $red;
+                        filter:progid:DXImageTransform.Microsoft.Shadow(color=$red, Direction=180, Strength=0);
+                    }
+                }
+                // products
+                &:nth-child(3) {
+                    &:hover {
+                        -moz-box-shadow: inset 0px 10px 0px 0px $yellow;
+                        -webkit-box-shadow: inset 0px 10px 0px 0px $yellow;
+                        -o-box-shadow: inset 0px 10px 0px 0px $yellow;
+                        box-shadow: inset 0px 10px 0px 0px $yellow;
+                        filter:progid:DXImageTransform.Microsoft.Shadow(color=$yellow, Direction=180, Strength=0);
+                    }
+                }
+                // espace
+                &:nth-child(4) {
+                    &:hover {
+                        -moz-box-shadow: inset 0px 10px 0px 0px $white;
+                        -webkit-box-shadow: inset 0px 10px 0px 0px $white;
+                        -o-box-shadow: inset 0px 10px 0px 0px $white;
+                        box-shadow: inset 0px 10px 0px 0px $white;
+                        filter:progid:DXImageTransform.Microsoft.Shadow(color=$white, Direction=180, Strength=0);
+                    }
+                }
             }
         }
     }

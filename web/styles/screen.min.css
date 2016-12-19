@@ -73,6 +73,9 @@
           color: #FFFFFF; }
 
 /***********************************************************************************************************************
+                                                Mixins
+***********************************************************************************************************************/
+/***********************************************************************************************************************
 ***********************************                  Fonts families                *************************************
 ***********************************************************************************************************************/
 @font-face {
@@ -477,18 +480,6 @@ header {
   @media screen and (min-width: 768px) {
     header {
       position: fixed !important; } }
-  header img {
-    width: 3.5em; }
-    header img:hover {
-      -webkit-animation-name: bounce;
-      animation-name: bounce;
-      -webkit-transform-origin: center bottom;
-      transform-origin: center bottom; }
-  header li {
-    padding: 1.2em 2em; }
-    @media screen and (min-width: 1200px) {
-      header li {
-        font-size: 1.2em; } }
   header .navbar-default {
     background: transparent;
     border: 0 none;
@@ -497,7 +488,7 @@ header {
       margin-top: 1.3em;
       margin-right: 3em;
       border: 0 none; }
-      header .navbar-default .navbar-toggle:focus {
+      header .navbar-default .navbar-toggle:hover, header .navbar-default .navbar-toggle:focus {
         background: transparent; }
       header .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFFFFF; }
@@ -513,6 +504,35 @@ header {
         background-position: bottom;
         -webkit-transition: all .1s ease-in;
                 transition: all .1s ease-in; }
+    @media screen and (max-width: 768px) {
+      header .navbar-default .navbar-nav {
+        margin: 0 -15px; } }
+    header .navbar-default .navbar-nav li {
+      padding: 1.2em 2em;
+      transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease; }
+      @media screen and (min-width: 1200px) {
+        header .navbar-default .navbar-nav li {
+          font-size: 1.2em; } }
+      header .navbar-default .navbar-nav li:first-child:hover {
+        -o-box-shadow: inset 0px 10px 0px 0px #009688;
+        box-shadow: inset 0px 10px 0px 0px #009688;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color=$turquoise, Direction=180, Strength=0); }
+      header .navbar-default .navbar-nav li:nth-child(2):hover {
+        -o-box-shadow: inset 0px 10px 0px 0px #FF5F2E;
+        box-shadow: inset 0px 10px 0px 0px #FF5F2E;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color=$red, Direction=180, Strength=0); }
+      header .navbar-default .navbar-nav li:nth-child(3):hover {
+        -o-box-shadow: inset 0px 10px 0px 0px #FCBE32;
+        box-shadow: inset 0px 10px 0px 0px #FCBE32;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color=$yellow, Direction=180, Strength=0); }
+      header .navbar-default .navbar-nav li:nth-child(4):hover {
+        -o-box-shadow: inset 0px 10px 0px 0px #FFFFFF;
+        box-shadow: inset 0px 10px 0px 0px #FFFFFF;
+        filter: progid:DXImageTransform.Microsoft.Shadow(color=$white, Direction=180, Strength=0); }
 
 /***********************************************************************************************************************
 **************************************                  Footer                   ***************************************

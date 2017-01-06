@@ -75,8 +75,8 @@
 					administrer son catalogue de produit et ses actualités avec la fonctionnalité multilingue.
 				</p>
 				<p>HTML, SCSS, jQuery, Bolt</p>
-				<a href="#" class="btn btn-ghost disabled" target="_blank">
-					<strong>Visite du site prochainement</strong>
+				<a href="http://www.antiderapant-agrain.com/" class="btn btn-ghost" target="_blank">
+					<strong>Visite du site</strong>
 				</a>
 			</div>
 

@@ -10,6 +10,20 @@
 		<link rel="icon" type="image/png" href="img/favicon.ico" >
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="web/styles/screen.min.css">
+
+		<meta property="og:title" content="Lambert Roudil, designer global vous propose la construction de l'identité visuelle de votre entreprise ainsi que le développement de votre site internet." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.lambertroudil.com/" />
+		<meta property="og:image" content="http://www.lambertroudil.com/img/og-image.jpg" />
+
+		<script type="text/javascript">
+		    window.smartlook||(function(d) {
+		    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+		    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+		    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+		    })(document);
+		    smartlook('init', '3699a677e70c105230101bc85da89cffd32ddbf2');
+		</script>
 	</head>
 
 	<body>

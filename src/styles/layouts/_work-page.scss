@@ -24,10 +24,10 @@
     .logo-company {
         a {
             img {
+                @include fast-transition;
                 &:hover {
                     -webkit-transform: scale(.9);
                     transform: scale(.9);
-                    transition: all .4s ease-in;
                 }
             }
         }
@@ -55,10 +55,10 @@
         .carousel-control {
             &.left, &.right {
                 background: transparent;
+                @include fast-transition;
                 &:hover {
                     -webkit-transform: scale(1.2);
                     transform: scale(1.2);
-                    transition: all .1s ease-in;
                 }
             }
         }

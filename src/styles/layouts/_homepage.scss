@@ -60,6 +60,7 @@
             position: relative;
             padding-top: 80%;
             cursor: pointer;
+            @include smooth-transition;
             @media screen and (min-width: 768px) and (max-width: 1499px) {
                 padding-top: 40%;
             }

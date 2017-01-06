@@ -1,4 +1,7 @@
 /***********************************************************************************************************************
+                                                Mixins
+***********************************************************************************************************************/
+/***********************************************************************************************************************
 **************************************                  UI Kit                   ***************************************
 ***********************************************************************************************************************/
 .blue {
@@ -23,13 +26,16 @@
   -o-box-shadow: 10px 10px 40px 0px #cfcfcf;
   box-shadow: 10px 10px 40px 0px #cfcfcf;
   padding: 1.5em 2em;
-  outline: none; }
+  outline: none;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease; }
   .btn-ghost:hover {
     background-color: #34495E;
     color: #FFFFFF;
-    box-shadow: none;
-    -webkit-transition: all .3s ease-in;
-            transition: all .3s ease-in; }
+    box-shadow: none; }
   .btn-ghost:focus {
     outline: none; }
 
@@ -41,13 +47,16 @@
     background: transparent;
     border-radius: 0px;
     border: 0px;
-    font-size: 1em; }
+    font-size: 1em;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease; }
     .dropdown button:hover {
       -o-box-shadow: 0px 5px 0px 0px #FFFFFF;
       box-shadow: 0px 5px 0px 0px #FFFFFF;
-      filter: progid:DXImageTransform.Microsoft.Shadow(color=$white, Direction=180, Strength=0);
-      -webkit-transition: all .2s ease-in;
-              transition: all .2s ease-in; }
+      filter: progid:DXImageTransform.Microsoft.Shadow(color=$white, Direction=180, Strength=0); }
     .dropdown button .caret {
       margin-left: 1.5em; }
   .dropdown .dropdown-menu {
@@ -72,9 +81,6 @@
           background-color: #222f3d;
           color: #FFFFFF; }
 
-/***********************************************************************************************************************
-                                                Mixins
-***********************************************************************************************************************/
 /***********************************************************************************************************************
 ***********************************                  Fonts families                *************************************
 ***********************************************************************************************************************/
@@ -496,14 +502,17 @@ header {
       background: url('../../img/logotype-lambert-roudil.png') no-repeat top;
       width: 65px;
       height: 65px;
-      margin: .2em 0; }
+      margin: .2em 0;
+      transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -o-transition: all .4s ease; }
       @media screen and (min-width: 768px) {
         header .navbar-default .navbar-brand {
           margin-top: .6em; } }
       header .navbar-default .navbar-brand:hover {
-        background-position: bottom;
-        -webkit-transition: all .1s ease-in;
-                transition: all .1s ease-in; }
+        background-position: bottom; }
     @media screen and (max-width: 768px) {
       header .navbar-default .navbar-nav {
         margin: 0 -15px; } }
@@ -611,7 +620,12 @@ footer {
   .homepage .works .item {
     position: relative;
     padding-top: 80%;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease; }
     @media screen and (min-width: 768px) and (max-width: 1499px) {
       .homepage .works .item {
         padding-top: 40%; } }
@@ -722,11 +736,15 @@ footer {
   color: #34495E;
   padding: 1em 0;
   text-transform: uppercase; }
-#pages-work .logo-company a img:hover {
-  -webkit-transform: scale(.9);
-  transform: scale(.9);
-  -webkit-transition: all .4s ease-in;
-          transition: all .4s ease-in; }
+#pages-work .logo-company a img {
+  transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease; }
+  #pages-work .logo-company a img:hover {
+    -webkit-transform: scale(.9);
+    transform: scale(.9); }
 #pages-work .logo-company img {
   display: block;
   margin: 2em auto; }
@@ -746,12 +764,15 @@ footer {
   #pages-work .carousel img {
     width: 100%; }
   #pages-work .carousel .carousel-control.left, #pages-work .carousel .carousel-control.right {
-    background: transparent; }
+    background: transparent;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease; }
     #pages-work .carousel .carousel-control.left:hover, #pages-work .carousel .carousel-control.right:hover {
       -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      -webkit-transition: all .1s ease-in;
-              transition: all .1s ease-in; }
+      transform: scale(1.2); }
   #pages-work .carousel::before {
     content: "";
     position: absolute;

@@ -28,12 +28,12 @@ header {
             width: 65px;
             height: 65px;
             margin: .2em 0;
+            @include fast-transition;
             @media screen and (min-width: 768px) {
                 margin-top: .6em;
             }
             &:hover {
                 background-position: bottom;
-                transition: all .1s ease-in;
             }
         }
         .navbar-nav {

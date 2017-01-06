@@ -43,11 +43,12 @@ $darkgray:                  #333333;
 
     padding: 1.5em 2em;
     outline: none;
+    @include smooth-transition;
+
     &:hover {
         background-color: $blue;
         color: $white;
         box-shadow: none;
-        transition: all .3s ease-in;
     }
     &:focus {
         outline: none;
@@ -65,13 +66,13 @@ $darkgray:                  #333333;
         border-radius: 0px;
         border: 0px;
         font-size: 1em;
+        @include smooth-transition;
         &:hover {
             -moz-box-shadow: 0px 5px 0px 0px $white;
             -webkit-box-shadow: 0px 5px 0px 0px $white;
             -o-box-shadow: 0px 5px 0px 0px $white;
             box-shadow: 0px 5px 0px 0px $white;
             filter:progid:DXImageTransform.Microsoft.Shadow(color=$white, Direction=180, Strength=0);
-            transition: all .2s ease-in;
         }
         .caret {
             margin-left: 1.5em;

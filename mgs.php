@@ -22,7 +22,9 @@
 			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
-				<img src="img/img-web/mgs/mgs-industries-logotype.png" alt="logotype de MGS Industries, créé et met au point des produits de sécurité antidérapants">
+				<a href="http://www.antiderapant-agrain.com/" target="_blank">
+					<img src="img/img-web/mgs/mgs-industries-logotype.png" alt="logotype de MGS Industries, créé et met au point des produits de sécurité antidérapants">
+				</a>
 			</div>
 
 			<!-- carousel project -->

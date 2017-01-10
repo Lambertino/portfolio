@@ -1,5 +1,5 @@
 <div id="portfolio" class="works col-sm-12 no-padding">
-	<a href="gef.php">
+	<a href="amebat.php">
 		<section id="bloc-web" class="col-xs-12 col-sm-6 item">
 			<img src="img/web.svg" alt="lien vers les créations webdesign" class="animated infinite">
 			<p class="item-category">Web</p>

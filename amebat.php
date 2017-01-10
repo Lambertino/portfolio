@@ -22,7 +22,9 @@
 			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
-				<img src="img/img-web/amebat/logotype-amebat.png" alt="logotype de l'AMEBAT, le Service de Santé au Travail du Bâtiment et des Travaux Publics">
+				<a href="http://amebat.fr/" target="_blank">
+					<img src="img/img-web/amebat/logotype-amebat.png" alt="logotype de l'AMEBAT, le Service de Santé au Travail du Bâtiment et des Travaux Publics">
+				</a>
 			</div>
 
 			<!-- carousel project -->
@@ -78,8 +80,8 @@
 					administrer ses actualités quotidiennes, ses offres d'emploi et sa documentation facilement et rapidement.
 				</p>
 				<p>HTML, SCSS, jQuery, Bolt</p>
-				<a href="#" class="btn btn-ghost disabled" target="_blank">
-					<strong>Visite du site prochainement</strong>
+				<a href="http://amebat.fr/" class="btn btn-ghost" target="_blank">
+					<strong>Visite du site</strong>
 				</a>
 			</div>
 

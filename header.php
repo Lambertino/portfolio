@@ -14,7 +14,7 @@
 
 		    <div class="collapse navbar-collapse" id="menu">
 		    	<ul class="nav navbar-nav navbar-right">
-			    	<li><a href="gef.php" class="turquoise">Web</a></li>
+			    	<li><a href="amebat.php" class="turquoise">Web</a></li>
 			    	<li><a href="listo.php" class="red">Print</a></li>
 			    	<li><a href="grum.php" class="yellow">Produit</a></li>
 			    	<li><a href="5e-avenue.php" class="white">Espace</a></li>

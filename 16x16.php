@@ -68,8 +68,8 @@
 			<div class="description">
 				<h1>16x16</h1>
 				<p>
-					Développement du site francophone d'actualités musicales du rédacteur mélomane <strong>Olivier Périllat</strong>.<br>
-					Véritable Diggers' Song du rap français, Olivier Périllat aka <strong>"Zitoun"</strong>, nous propose sa sélection et
+					Développement du site francophone d'actualités musicales du rédacteur mélomane <strong>Olivier Perillat</strong>.<br>
+					Véritable Diggers' Song du rap français, Olivier Perillat aka <strong>"Zitoun"</strong>, nous propose sa sélection et
 					ses analyses de rap indépendant. L'une des principales démarches du site est d'apporté au rap indépendant
 					un public et une couverture médiatique en France pour diffuser cet art souvent méprisé.
 				</p>

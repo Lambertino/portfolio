@@ -617,70 +617,72 @@ footer {
       @media screen and (max-width: 780px) {
         .homepage .my-introduction .particles-js-canvas-el {
           width: 96% !important; } }
-  .homepage .works .item {
-    position: relative;
-    padding-top: 80%;
-    cursor: pointer;
-    transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease; }
-    @media screen and (min-width: 768px) and (max-width: 1499px) {
-      .homepage .works .item {
-        padding-top: 40%; } }
-    @media screen and (min-width: 1500px) {
-      .homepage .works .item {
-        padding-top: 30%; } }
-    .homepage .works .item#bloc-web {
-      background-color: #004E66; }
-      .homepage .works .item#bloc-web:hover {
-        background-color: #446CB2; }
-    .homepage .works .item#bloc-product {
-      background-color: #FCBE32; }
-      .homepage .works .item#bloc-product p {
-        float: left;
-        margin-left: .5em; }
-      .homepage .works .item#bloc-product:hover {
-        background-color: #F39313; }
-    .homepage .works .item#bloc-graphism {
-      background-color: #FF5F2E; }
-      .homepage .works .item#bloc-graphism:hover {
-        background-color: #E24139; }
-    .homepage .works .item#bloc-retail-design {
-      background-color: #E1EEF6; }
-      .homepage .works .item#bloc-retail-design p {
-        float: left;
-        margin-left: .5em; }
-      .homepage .works .item#bloc-retail-design:hover {
-        background-color: #d1e1e8; }
-    .homepage .works .item img {
-      position: absolute;
-      display: block;
-      margin: auto;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      width: 65%; }
+  .homepage #portfolio {
+    clear: both; }
+    .homepage #portfolio .works .item {
+      position: relative;
+      padding-top: 80%;
+      cursor: pointer;
+      transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease; }
       @media screen and (min-width: 768px) and (max-width: 1499px) {
-        .homepage .works .item img {
-          width: 45%; } }
+        .homepage #portfolio .works .item {
+          padding-top: 40%; } }
       @media screen and (min-width: 1500px) {
-        .homepage .works .item img {
-          width: 35%; } }
-    .homepage .works .item .item-category {
-      font-family: 'MarkMyWords';
-      font-size: 2.3em;
-      color: #FFFFFF;
-      float: right;
-      margin-right: 1em;
-      opacity: .8;
-      transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-      -webkit-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-      -moz-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-      -o-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-      -ms-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px); }
+        .homepage #portfolio .works .item {
+          padding-top: 30%; } }
+      .homepage #portfolio .works .item#bloc-web {
+        background-color: #004E66; }
+        .homepage #portfolio .works .item#bloc-web:hover {
+          background-color: #446CB2; }
+      .homepage #portfolio .works .item#bloc-product {
+        background-color: #FCBE32; }
+        .homepage #portfolio .works .item#bloc-product p {
+          float: left;
+          margin-left: .5em; }
+        .homepage #portfolio .works .item#bloc-product:hover {
+          background-color: #F39313; }
+      .homepage #portfolio .works .item#bloc-graphism {
+        background-color: #FF5F2E; }
+        .homepage #portfolio .works .item#bloc-graphism:hover {
+          background-color: #E24139; }
+      .homepage #portfolio .works .item#bloc-retail-design {
+        background-color: #E1EEF6; }
+        .homepage #portfolio .works .item#bloc-retail-design p {
+          float: left;
+          margin-left: .5em; }
+        .homepage #portfolio .works .item#bloc-retail-design:hover {
+          background-color: #d1e1e8; }
+      .homepage #portfolio .works .item img {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 65%; }
+        @media screen and (min-width: 768px) and (max-width: 1499px) {
+          .homepage #portfolio .works .item img {
+            width: 45%; } }
+        @media screen and (min-width: 1500px) {
+          .homepage #portfolio .works .item img {
+            width: 35%; } }
+      .homepage #portfolio .works .item .item-category {
+        font-family: 'MarkMyWords';
+        font-size: 2.3em;
+        color: #FFFFFF;
+        float: right;
+        margin-right: 1em;
+        opacity: .8;
+        transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+        -webkit-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+        -moz-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+        -o-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+        -ms-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px); }
   .homepage .skills {
     background-color: #ECF0F1;
     position: relative;

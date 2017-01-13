@@ -55,79 +55,82 @@
     /*******************************************************************************************************************
     **************************************                  Works                ***************************************
     *******************************************************************************************************************/
-    .works {
-        .item {
-            position: relative;
-            padding-top: 80%;
-            cursor: pointer;
-            @include smooth-transition;
-            @media screen and (min-width: 768px) and (max-width: 1499px) {
-                padding-top: 40%;
-            }
-            @media screen and (min-width: 1500px) {
-                padding-top: 30%;
-            }
-            &#bloc-web {
-                background-color: #004E66;
-                &:hover {
-                    background-color: #446CB2;
-                }
-            }
-            &#bloc-product {
-                background-color: $yellow;
-                p {
-                    float: left;
-                    margin-left: .5em;
-                }
-                &:hover {
-                    background-color: #F39313;
-                }
-            }
-            &#bloc-graphism {
-                background-color: $red;
-                &:hover {
-                    background-color: #E24139;
-                }
-            }
-            &#bloc-retail-design {
-                background-color: $lightgray;
-                p {
-                    float: left;
-                    margin-left: .5em;
-                }
-                &:hover{
-                    background-color: #d1e1e8;
-                }
-            }
-            img {
-                position: absolute;
-                display: block;
-                margin: auto;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                width: 65%;
+    #portfolio {
+        clear: both;
+        .works {
+            .item {
+                position: relative;
+                padding-top: 80%;
+                cursor: pointer;
+                @include smooth-transition;
                 @media screen and (min-width: 768px) and (max-width: 1499px) {
-                    width: 45%;
+                    padding-top: 40%;
                 }
                 @media screen and (min-width: 1500px) {
-                    width: 35%;
+                    padding-top: 30%;
                 }
-            }
-            .item-category {
-                font-family: 'MarkMyWords';
-                font-size: 2.3em;
-                color: $white;
-                float: right;
-                margin-right: 1em;
-                opacity: .8;
+                &#bloc-web {
+                    background-color: #004E66;
+                    &:hover {
+                        background-color: #446CB2;
+                    }
+                }
+                &#bloc-product {
+                    background-color: $yellow;
+                    p {
+                        float: left;
+                        margin-left: .5em;
+                    }
+                    &:hover {
+                        background-color: #F39313;
+                    }
+                }
+                &#bloc-graphism {
+                    background-color: $red;
+                    &:hover {
+                        background-color: #E24139;
+                    }
+                }
+                &#bloc-retail-design {
+                    background-color: $lightgray;
+                    p {
+                        float: left;
+                        margin-left: .5em;
+                    }
+                    &:hover{
+                        background-color: #d1e1e8;
+                    }
+                }
+                img {
+                    position: absolute;
+                    display: block;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    width: 65%;
+                    @media screen and (min-width: 768px) and (max-width: 1499px) {
+                        width: 45%;
+                    }
+                    @media screen and (min-width: 1500px) {
+                        width: 35%;
+                    }
+                }
+                .item-category {
+                    font-family: 'MarkMyWords';
+                    font-size: 2.3em;
+                    color: $white;
+                    float: right;
+                    margin-right: 1em;
+                    opacity: .8;
 
-                transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-                -webkit-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-                -moz-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-                -o-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
-                -ms-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                    transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                    -webkit-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                    -moz-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                    -o-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                    -ms-transform: rotate(-2deg) scale(1) skew(1deg) translate(0px);
+                }
             }
         }
     }

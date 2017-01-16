@@ -49,19 +49,6 @@
         @media screen and (min-width: 1500px) {
             width: 60%;
         }
-        img {
-            width: 100%;
-        }
-        .carousel-control {
-            &.left, &.right {
-                background: transparent;
-                @include fast-transition;
-                &:hover {
-                    -webkit-transform: scale(1.2);
-                    transform: scale(1.2);
-                }
-            }
-        }
         &::before {
             content: "";
             position: absolute;
@@ -72,6 +59,28 @@
             left: 2%;
             border-radius: 100px / 5px;
             box-shadow:0 0 18px rgba(0,0,0,0.7);
+        }
+        .carousel-inner {
+            .inner {
+                opacity: 0;
+                -webkit-transition-property: opacity;
+                -moz-transition-property: opacity;
+                -o-transition-property: opacity;
+                transition-property: opacity;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .carousel-control {
+            &.left, &.right {
+                background: transparent;
+                @include fast-transition;
+                &:hover {
+                    -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+            }
         }
     }
     .description {

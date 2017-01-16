@@ -763,18 +763,6 @@ footer {
   @media screen and (min-width: 1500px) {
     #pages-work .carousel {
       width: 60%; } }
-  #pages-work .carousel img {
-    width: 100%; }
-  #pages-work .carousel .carousel-control.left, #pages-work .carousel .carousel-control.right {
-    background: transparent;
-    transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -o-transition: all .4s ease; }
-    #pages-work .carousel .carousel-control.left:hover, #pages-work .carousel .carousel-control.right:hover {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2); }
   #pages-work .carousel::before {
     content: "";
     position: absolute;
@@ -785,6 +773,22 @@ footer {
     left: 2%;
     border-radius: 100px/5px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.7); }
+  #pages-work .carousel .carousel-inner .inner {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    transition-property: opacity; }
+    #pages-work .carousel .carousel-inner .inner img {
+      width: 100%; }
+  #pages-work .carousel .carousel-control.left, #pages-work .carousel .carousel-control.right {
+    background: transparent;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease; }
+    #pages-work .carousel .carousel-control.left:hover, #pages-work .carousel .carousel-control.right:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
 #pages-work .description {
   width: 80%;
   display: block;

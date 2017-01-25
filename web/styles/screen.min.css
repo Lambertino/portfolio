@@ -753,6 +753,8 @@ footer {
   @media screen and (min-width: 768px) {
     #pages-work .logo-company img {
       padding-top: 2em; } }
+#pages-work #carousel-project > div img {
+  width: 100%; }
 #pages-work .carousel {
   width: 100%;
   margin: auto;

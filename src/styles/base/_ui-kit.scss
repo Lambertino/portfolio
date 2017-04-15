@@ -16,6 +16,10 @@ $darkgray:                  #333333;
 .blue {
     color: $blue !important;
 }
+.blue-bg {
+    background-color: $blue;
+    color: $white;
+}
 .turquoise {
     color: $turquoise !important;
 }
@@ -103,4 +107,11 @@ $darkgray:                  #333333;
             }
         }
     }
+}
+// jumbotron
+//
+.jumbotron {
+    background: url('../../img/portrait-2.png') no-repeat right bottom;
+    margin-bottom: 0;
+    padding: 5em 0 8em;
 }

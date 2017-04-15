@@ -49,7 +49,9 @@
 						<p><strong>Découvrez le par-ici</strong></p>
 						<figure class="direction center-block">
 							<a href="#portfolio" class="scroll">
-								<img src="img/arrow-down.png" class="float" alt="scrollez vers le bas pour consulter le portfolio de Lambert Roudil">
+								<img src="img/ui-kit/arrow-down.png"
+									 class="float"
+									 alt="scrollez vers le bas pour consulter le portfolio de Lambert Roudil">
 							</a>
 						</figure>
 					</div>
@@ -81,9 +83,11 @@
 							<h3>2016</h3>
 							<p>Webdesigner / intégrateur<br>au sein de l'agence nantaise <a href="http://www.toog.fr" target="_blank">Toog</a></p>
 						</section>
+						<div class="row text-center">
+							<a href="resume.php" class="btn btn-ghost">En savoir plus</a>
+						</div>
 					</div>
 				</div>
-				<canvas id="canvas"></canvas>
 			</section>
 
 		</main>

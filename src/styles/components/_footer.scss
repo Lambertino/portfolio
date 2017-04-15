@@ -5,15 +5,14 @@ footer {
     background-color: $darkgray;
     padding: 1em 0;
     z-index: 2;
-    .logo-contact{
-        padding: .4em 0;
-        img {
-            width: 4.5em;
-        }
-    }
     p {
         font-size: 1.2em;
         color: $white;
-        padding-top: 1em;
+        padding-top: .7em;
+    }
+    .social-network {
+        img {
+            padding-top: .9em;
+        }
     }
 }

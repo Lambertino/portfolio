@@ -7,6 +7,10 @@
 .blue {
   color: #34495E !important; }
 
+.blue-bg {
+  background-color: #34495E;
+  color: #FFFFFF; }
+
 .turquoise {
   color: #009688 !important; }
 
@@ -81,6 +85,11 @@
           background-color: #222f3d;
           color: #FFFFFF; }
 
+.jumbotron {
+  background: url('../../img/portrait-2.png') no-repeat right bottom;
+  margin-bottom: 0;
+  padding: 5em 0 8em; }
+
 /***********************************************************************************************************************
 ***********************************                  Fonts families                *************************************
 ***********************************************************************************************************************/
@@ -107,6 +116,9 @@ p, li, a, button {
 
 h2, h3, h4, h5, strong {
   font-family: 'Karla-Bold'; }
+
+h1, .handwriting {
+  font-family: 'MarkMyWords'; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -449,6 +461,12 @@ td, th {
 .no-padding {
   padding: 0; }
 
+.padding {
+  padding: 5em 0; }
+
+.margin {
+  margin: 1em 0; }
+
 h1 {
   font-size: 2.5em;
   color: #FF5F2E;
@@ -463,6 +481,9 @@ h3 {
 
 p {
   line-height: 1.6; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 .bigger {
   font-size: 1.7em; }
@@ -550,14 +571,12 @@ footer {
   background-color: #333333;
   padding: 1em 0;
   z-index: 2; }
-  footer .logo-contact {
-    padding: .4em 0; }
-    footer .logo-contact img {
-      width: 4.5em; }
   footer p {
     font-size: 1.2em;
     color: #FFFFFF;
-    padding-top: 1em; }
+    padding-top: .7em; }
+  footer .social-network img {
+    padding-top: .9em; }
 
 .homepage {
   /*******************************************************************************************************************
@@ -587,14 +606,12 @@ footer {
     -webkit-flex-wrap: wrap;
     /* Safari */
     overflow: hidden; }
-    .homepage .my-introduction .my-introduction-ct h1 {
-      font-family: 'MarkMyWords'; }
-      @media screen and (max-width: 767px) {
-        .homepage .my-introduction .my-introduction-ct h1 {
-          margin-top: .5em; } }
-      @media screen and (min-width: 550px) {
-        .homepage .my-introduction .my-introduction-ct h1 {
-          font-size: 5em; } }
+    @media screen and (max-width: 767px) {
+      .homepage .my-introduction .my-introduction-ct h1 {
+        margin-top: .5em; } }
+    @media screen and (min-width: 550px) {
+      .homepage .my-introduction .my-introduction-ct h1 {
+        font-size: 5em; } }
     .homepage .my-introduction .my-introduction-ct h2 {
       font-size: 1.8em;
       text-transform: uppercase;
@@ -796,7 +813,6 @@ footer {
   display: block;
   margin: 4em auto; }
   #pages-work .description h1 {
-    font-family: 'MarkMyWords';
     font-size: 3em;
     margin-bottom: 1em;
     position: relative; }

@@ -1,16 +1,13 @@
 	<footer class="col-xs-12">
 		<div class="row text-center no-margin">
-			<div class="hidden-xs col-sm-offset-1 col-sm-1 logo-contact">
-				<img src="img/logotype-lambert-roudil-footer.png" alt="Bienvenue sur le site de Lambert Roudil, vous êtes en bas de page">
+			<p class="col-sm-4">Lambert Roudil &copy</p>
+			<div class="hidden-xs social-network col-sm-4">
+				<a href="https://twitter.com/LambertRoudil" target="_blank">
+					<img src="img/ui-kit/icon_twitter.png" alt="Vous pouvez suivre Lambert Roudil sur Twitter">
+				</a>
 			</div>
-			<div class="col-sm-2">
-				<p class="hidden-xs"">Lambert Roudil</p>
-			</div>
-			<div class="hidden-xs col-sm-4">
-				<?php echo '<p class="clock">'.date('d m Y').'</p>'; ?>
-			</div>
-			<div class="col-xs-12 col-sm-4">
-				<a href="mailto:roudil.lambert@gmail.com?subject=SweetWords">
+			<div class="col-sm-4">
+				<a href="mailto:roudil.lambert@gmail.com?subject=Bonjour">
 					<p id="link">roudil.lambert@gmail.com</p>
 				</a>
 			</div>

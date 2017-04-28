@@ -67,7 +67,7 @@
 
 			<div class="description">
 				<h1>Listo</h1>
-				<p>Élaboration du logotype de la start-up française <strong>Listo</strong></p>
+				<p>Élaboration du logotype de la start-up française <a href="https://www.listo.pro/" target="_blank">Listo</a>.</p>
 				<p>
 					Il est le résultat d’un brief suivi d’une recherche créative approfondie visant à représenter et
 					valoriser l'image de la start-up dont l'objectif est de faciliter la gestion des salariés dans les PME.

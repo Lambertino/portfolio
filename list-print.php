@@ -20,6 +20,13 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
+				<img src="img/img-graphisme/thumbnails/malvam.jpg" alt="Découvrez le projet Malvam !"/>
+			  	<figcaption>
+			  	  	<h3>Malvam</h3>
+			  	  	<p>Création et vente de prestations musicales.</p>
+			  	</figcaption><a href="malvam.php"></a>
+			</figure>
+			<figure class="item">
 				<img src="img/img-graphisme/thumbnails/listo.jpg" alt="Découvrez le projet Listo !"/>
 			  	<figcaption>
 			  	  	<h3>Listo</h3>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Bamboo Chair</title>
+		<title>Lambert Roudil | Bamboo Chair</title>
 		<meta name="description" content="La bamboo chair a été conçue en bambou et métal et a été créée dans le cadre d'un volontariat avec l'ONG Gawad Kalinga sur l'île de Palawan aux Philippines. Celle-ci est destinée au design d'intérieur des maisons du village Gawad Kalinga à Alimanguan dans la région de San Vicente." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-product.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-produit/gk-chair/logo-gk.svg" alt="logo de la chaise dans le cadre d'un volontariat avec l'ONG Gawad Kalinga">
@@ -71,11 +69,12 @@
 				<p>L'association Gawad Kalinga, créée en 2003 lutte contre la pauvreté aux Philippines en apportant aux populations défavorisées
 					les ressources matérielles, morales et humaines nécessaires pour garantir un développement durable. Le nom de l’organisme vient du
 					tagalog et veut dire « prendre soin ».</p>
-				<p><a href="http://gk-france.fr/" target="_blank">en savoir plus sur Gawad Kalinga</a></p>
+				<a href="http://gk-france.fr/" class="btn btn-ghost" target="_blank">En savoir plus sur Gawad Kalinga</a>
+				<?php require_once('partials/back-list-products.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

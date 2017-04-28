@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Red Carpet</title>
+		<title>Lambert Roudil | Red Carpet</title>
 		<meta name="description" content="Red Carpet est une entreprise sociale liée à l'ONG Gawad Kalinga basée aux Philippines." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-graphism.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-graphisme/red-carpet/logo-redcarpet.svg" alt="logo de l'entreprise red carpet, entreprise l'ONG Gawad Kalinga">
@@ -64,13 +62,12 @@
 			<!-- /end carousel project -->
 
 			<div class="description">
-				<h1></h1>
-				<p></p>
-				<p></p>
+				<h1>Red Carpet</h1>
+				<?php require_once('partials/back-list-print.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

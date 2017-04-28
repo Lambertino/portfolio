@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet John Andreu</title>
+		<title>Lambert Roudil | John Andreu</title>
 		<meta name="description" content="Développement du site vitrine et de l'identité visuelle de John Andreu, ostéopathe des plus prestigieux SPA et palaces parisiens, tels que le Fouquet's et le George V." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.lambertroudil.com/johnandreu/" target="_blank"><img src="img/img-web/john-andreu/johnandreu1.png" alt="création du site de l'ostéopathe John Andreu"></a>
@@ -64,15 +62,18 @@
 
 			<div class="description">
 				<h1>John Andreu</h1>
-				<p>Développement du site vitrine et de l'identité visuelle de <strong>John Andreu</strong> ostéopathe
-					des plus prestigieux SPA et palaces parisiens, tels que le Fouquet's et le George V.</p>
-				<a href="http://www.lambertroudil.com/johnandreu/" class="btn btn-ghost" target="_blank"><strong>
-					Visite du site de John Andreu</strong>
+				<p>
+					Développement du site vitrine et de l'identité visuelle de <strong>John Andreu</strong> ostéopathe
+					des plus prestigieux SPA et palaces parisiens, tels que le Fouquet's et le George V.
+				</p>
+				<a href="http://www.lambertroudil.com/johnandreu/" class="btn btn-ghost" target="_blank">
+					<strong>Visite du site de John Andreu</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Shoes design</title>
+		<title>Lambert Roudil | Shoes design</title>
 		<meta name="description" content="Le styliste modéliste imagine et crée les modèles qui composent les collections de demain. Il a la responsabilité de développer une ligne complète de produits en correspondance avec l’image de la marque en adoptant une méthodologie stricte. Lambert Roudil vous présente ses modèles créés pour Miss Coquines." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-product.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-produit/shoes/logo-shoes.svg" alt="logo de la gamme de chaussure pour les magasins Miss Coquines">
@@ -76,16 +74,17 @@
 				<h1>Shoes design</h1>
 				<p>Le styliste modéliste imagine et crée les modèles qui composent les collections de demain. Il a la responsabilité de développer une ligne complète de produits en correspondance avec l’image de la marque en adoptant une méthodologie stricte:</p>
 				<ul>
-					<li>- Repérer et évaluer des tendances par saison;</li>
-					<li>- Réaliser un book de croquis pour présenter des modèles de chaussures : formes, hauteurs de talons, semelles…</li>
-					<li>- Définir des thèmes et des lignes de chaussures (volumes, hauteurs de tiges…), sélectionner les matières et les couleurs</li>
-					<li>- Elaborer un plan de collection, selon le nombre de lignes et de modèles définis par le chef de produit</li>
-					<li>- Présenter les collections en interne et auprès des acheteurs.</li>
-					<li>- Superviser la réalisation des prototypes jusqu’à leur mise au point.</li>
+					<li>Repérer et évaluer des tendances par saison;</li>
+					<li>Réaliser un book de croquis pour présenter des modèles de chaussures : formes, hauteurs de talons, semelles…</li>
+					<li>Définir des thèmes et des lignes de chaussures (volumes, hauteurs de tiges…), sélectionner les matières et les couleurs</li>
+					<li>Élaborer un plan de collection, selon le nombre de lignes et de modèles définis par le chef de produit</li>
+					<li>Présenter les collections en interne et auprès des acheteurs.</li>
+					<li>Superviser la réalisation des prototypes jusqu’à leur mise au point.</li>
 				</ul>
+				<?php require_once('partials/back-list-products.php'); ?>
 			</div>
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

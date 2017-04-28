@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projets mobiliers sur mesure</title>
+		<title>Lambert Roudil | Mobiliers sur-mesure</title>
 		<meta name="description" content="Le retail-design est la création d’espace de commerce ou plus précisément l'étude de l’agencement intérieur pour valoriser les produits vendus, soigner l’esthétisme extérieur pour inciter les consommateurs à entrer. Le designer Lambert Roudil vous présente l'ensemble de ses collections de mobilier destinées aux magasins." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-product.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-produit/mobilier/logo-mobilier.svg" alt="logo de la gamme de mobilier sur-mesure">
@@ -74,16 +72,24 @@
 
 			<div class="description">
 				<h1>Le mobilier sur-mesure</h1>
-				<p>Le retail-design est la création d’espace de commerce ou plus précisément l'étude de
-				 l’agencement intérieur pour valoriser les produits vendus, soigner l’esthétisme extérieur pour inciter les consommateurs à entrer.</p>
-				<p>C'est dans le cadre de cette étude que j'ai pu concevoir ces différents mobiliers-
-					sur-mesure destinés à habiller des espaces commerciaux ainsi que des hôtels.</p>
-				<p>Les mobiliers sont réalisés afin d'optimiser l'accueil du client à travers une structure
-				 prenant en compte les normes handicapées et un aspect pratique pour les employés qui y travaillent.</p>
+				<p>
+					Le retail-design est la création d’espace de commerce ou plus précisément l'étude de
+					l’agencement intérieur pour valoriser les produits vendus, soigner l’esthétisme extérieur pour inciter
+					les consommateurs à entrer.
+				 </p>
+				<p>
+					C'est dans le cadre de cette étude que j'ai pu concevoir ces différents mobiliers-
+					sur-mesure destinés à habiller des espaces commerciaux ainsi que des hôtels.
+				</p>
+				<p>
+					Les mobiliers sont réalisés afin d'optimiser l'accueil du client à travers une structure
+					prenant en compte les normes handicapées et un aspect pratique pour les employés qui y travaillent.
+				</p>
+				<?php require_once('partials/back-list-products.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

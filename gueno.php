@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Jean-Marie Guéno</title>
+		<title>Lambert Roudil | Jean-Marie Guéno</title>
 		<meta name="description" content="Développement du site vitrine du designer Jean-Marie Guéno,www.jeanmariegueno.com, diplômé en arts appliqués de l’école Pivaut. Le designer, à la croisée des chemins entre le monde de l’art et celui l'entreprise, trouve son inspiration au cœur du pays guérandais entre marais salants et cité médiévale." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://jeanmariegueno.com/" target="_blank"><img src="img/img-web/gueno/logo-gueno.png" alt="logo du designer Jean-Marie Gueno jeanmariegueno.com"></a>
@@ -70,10 +68,11 @@
 				<a href="http://jeanmariegueno.com/" class="btn btn-ghost" target="_blank"><strong>
 					Visite du site</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

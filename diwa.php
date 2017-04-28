@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet humanitaire Diwa</title>
+		<title>Lambert Roudil | Projet humanitaire Diwa</title>
 		<meta name="description" content="Diwa est une entreprise sociale faisant partie de l'ONG Gawad Kalinga basée aux Philippines. Elle s'est spécialisée dans les huiles essentielles naturelles et dans les huiles de massage. La construction de l'identité de la marque Diwa s'est fondée sur la simplicité et la clarté afin d'utiliser une image identifiable et mémorisable en une seconde." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-graphism.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-graphisme/diwa/logo-diwa.svg" alt="logo de l'entreprise Diwa, les huiles essentielles">
@@ -77,14 +75,27 @@
 
 			<div class="description">
 				<h1>Diwa</h1>
-				<p>Diwa est une entreprise sociale faisant partie de l'ONG Gawad Kalinga basée aux Philippines. Elle s'est spécialisée dans les huiles essentielles naturelles et dans les huiles de massage.</p>
-				<p>L'identité visuelle est l'ensemble des éléments graphiques constituant la signalétique de l'entreprise. Ils permettent d'identifier, de reconnaître immédiatement une entreprise, un organisme, une marque. Les éléments constitutifs de l'identité visuelle sont le nom (de marque), le logotype, l'emblème, la griffe, la couleur, la police et la taille de caractères utilisés.</p>
-				<p>La construction de l'identité de la marque "Diwa" s'est fondée sur la simplicité et la clarté afin d'utiliser une image identifiable et mémorisable en une seconde. Sa nouvelle identité est cohérente puisqu'elle est la même sur tous les supports utilisés: flacon, carte de visite, lettre à en-tête, flyers, agendas...</p>
+				<p>
+					Diwa est une entreprise sociale faisant partie de l'ONG Gawad Kalinga basée aux Philippines.
+					Elle s'est spécialisée dans les huiles essentielles naturelles et dans les huiles de massage.
+				</p>
+				<p>
+					L'identité visuelle est l'ensemble des éléments graphiques constituant la signalétique de l'entreprise.
+					Ils permettent d'identifier, de reconnaître immédiatement une entreprise, un organisme, une marque.
+					Les éléments constitutifs de l'identité visuelle sont le nom (de marque), le logotype, l'emblème, la griffe,
+					la couleur, la police et la taille de caractères utilisés.
+				</p>
+				<p>
+					La construction de l'identité de la marque "Diwa" s'est fondée sur la simplicité et la clarté afin
+					d'utiliser une image identifiable et mémorisable en une seconde. Sa nouvelle identité est cohérente
+					puisqu'elle est la même sur tous les supports utilisés: flacon, carte de visite, lettre à en-tête,
+					flyers, agendas...
+				</p>
+				<?php require_once('partials/back-list-print.php'); ?>
 			</div>
-		</div>
 
-	</main>
+		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

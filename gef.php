@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil et le Global Estuaries Forum</title>
+		<title>Lambert Roudil | Global Estuaries Forum</title>
 		<meta name="description" content="Développement du site de Global Estuaries Forum, espace pour l'ensemble des acteurs impliqués dans la gestion des estuaires à travers le monde." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.globalestuariesforum.com/" target="_blank">
@@ -82,10 +80,11 @@
 				<a href="http://www.globalestuariesforum.com/" class="btn btn-ghost" target="_blank">
 					<strong>Visite du site</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

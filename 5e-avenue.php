@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet 5e Avenue</title>
+		<title>Lambert Roudil | 5e Avenue</title>
 		<meta name="description" content="5e avenue est une galerie marchande située en plein centre ville de St Nazaire. Il s'agit dune surface de 1600m2 sur deux niveaux qui permet de s'exprimer, de circuler, d'animer et de présenter." />
 		<meta charset="UTF-8">
 		<meta charset="UTF-8">
@@ -16,11 +16,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-retail.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-espace/5e-avenue/logo-5eavenue.svg" alt="logo du magasin 5e Avenue">
@@ -98,15 +96,21 @@
 
 			<div class="description">
 				<h1>5e Avenue</h1>
-				<p>Le design d’espace consiste à aménager des lieux publics ou privés (commerce, bureau, stand…).
-				En jouant avec les espaces, la lumière, la couleur, le mobilier, les équipements, les objets et l’individualité
-				 de l’occupant, il s’agit de créer des lieux opérationnels et confortables, qui  reflètent la personnalité du commanditaire et des usagers.</p>
-				<p>5e avenue est une galerie marchande située en plein centre ville de St Nazaire,
-				 un emplacement idéal: situé dans un quartier piéton très commerçant, à deux pas de la
-				  base sous-marine récemment rénovée, coeur de la nouvelle scène culturelle. Il s'agit dune surface
-				   de 1600m2 sur deux niveaux qui permet de s'exprimer, de circuler, d'animer et de présenter.</p>
+				<p>
+					Le design d’espace consiste à aménager des lieux publics ou privés (commerce, bureau, stand…).
+					En jouant avec les espaces, la lumière, la couleur, le mobilier, les équipements, les objets et
+					l’individualité de l’occupant, il s’agit de créer des lieux opérationnels et confortables, qui reflètent
+					la personnalité du commanditaire et des usagers.
+				</p>
+				<p>
+					5e avenue est une galerie marchande située en plein centre ville de St Nazaire, un emplacement idéal&nbsp;:
+					situé dans un quartier piéton très commerçant, à deux pas de la base sous-marine récemment rénovée,
+					coeur de la nouvelle scène culturelle. Il s'agit dune surface de 1600m2 sur deux niveaux qui permet
+					de s'exprimer, de circuler, d'animer et de présenter.
+				</p>
+				<?php require_once('partials/back-list-retails.php'); ?>
 			</div>
 
-	</main>
+		</main>
 
-<?php include('footer.php') ;?>
+		<?php include('partials/footer.php') ;?>

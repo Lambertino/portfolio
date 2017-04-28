@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Sensass !</title>
+		<title>Lambert Roudil | Sensass !</title>
 		<meta name="description" content="Développement du site vitrine et de l'identité visuelle de l'agence de communication (fictive) Sensass !" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.lambertroudil.com/sensass/" target="_blank"><img src="img/img-web/sensass/logo-sensass.svg" alt="logo de l'agence fictive Sensass"></a>
@@ -67,10 +65,11 @@
 				<h1>Sensass!</h1>
 				<p>Développement du site vitrine et de l'identité visuelle de l'agence de communication <strong>Sensass !</strong></p>
 				<a href="http://www.lambertroudil.com/sensass/" class="btn btn-ghost" target="_blank">Visite du site</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

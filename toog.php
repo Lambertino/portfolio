@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Toog</title>
+		<title>Lambert Roudil | Toog</title>
 		<meta name="description" content="Développement du site vitrine de l'agence web nantaise Toog,www.toog.fr" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work" class="col-sm-12">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.toog.fr" target="_blank">
@@ -80,10 +78,11 @@
 				<a href="http://www.toog.fr" class="btn btn-ghost" target="_blank">
 					<strong>Visite du site</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

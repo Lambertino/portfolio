@@ -16,34 +16,27 @@ $( document ).ready(function() {
    // particles on skills section
    // http://thenewcode.com/1159/Create-a-Dynamic-Point-Mesh-Animation-with-HTML5-Canvas
    let resizeReset = function() {
-    w = canvasBody.width = window.innerWidth;
-    h = canvasBody.height = window.innerHeight;
+      w = canvasBody.width = window.innerWidth;
+      h = canvasBody.height = window.innerHeight;
    }
 
    const opts = {
-    particleColor: "rgb(200,200,200)",
-    lineColor: "rgb(200,200,200)",
-    particleAmount: 30,
-    defaultSpeed: 1,
-    variantSpeed: 1,
-    defaultRadius: 2,
-    variantRadius: 2,
-    linkRadius: 200,
+      particleColor: "rgb(200,200,200)",
+      lineColor: "rgb(200,200,200)",
+      particleAmount: 30,
+      defaultSpeed: 1,
+      variantSpeed: 1,
+      defaultRadius: 2,
+      variantRadius: 2,
+      linkRadius: 200,
    };
 
    window.addEventListener("resize", function(){
-    deBouncer();
+      deBouncer();
    });
 
-   let deBouncer = function() {
-       clearTimeout(tid);
-       tid = setTimeout(function() {
-           resizeReset();
-       }, delay);
-   };
-
    let checkDistance = function(x1, y1, x2, y2){
-    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+      return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
    };
 
    Particle = function(xPos, yPos){
@@ -101,10 +94,20 @@ $( document ).ready(function() {
     }
    }
 
-   const canvasBody = document.getElementById("canvas"),
-   drawArea = canvasBody.getContext("2d");
-   let delay = 200, tid;
-   resizeReset();
-   setup();
+  // scrollFun
+  jQuery.fn.niceScroll = function() {
+      $(this).click(function(e) {
+          var h = $(this).attr('href'),
+          target;
 
+          if (h.charAt(0) == '#' && h.length > 1 && (target = $(h)).length > 0){
+              var pos = Math.max(target.offset().top, 0);
+              e.preventDefault();
+              $('body,html').animate({
+                scrollTop : pos
+              }, 'slow', 'swing');
+          }
+      });
+  };
+  $('.scroll').niceScroll();
 });

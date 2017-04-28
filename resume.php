@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, mon CV</title>
+		<title>Lambert Roudil | CV</title>
 		<meta name="description" content="Lambert Roudil vous présente ses diplômes, ses expériences et ses compétences." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,7 +15,7 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main class="resume">
 
@@ -133,4 +133,4 @@
 
 		</main>
 
-<?php require_once('footer.php'); ?>
+		<?php require_once('partials/footer.php'); ?>

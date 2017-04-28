@@ -15,21 +15,12 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://www.lambertroudil.com/" />
 		<meta property="og:image" content="http://www.lambertroudil.com/img/og-image.jpg" />
-
-		<script type="text/javascript">
-		    window.smartlook||(function(d) {
-		    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-		    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-		    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-		    })(document);
-		    smartlook('init', '3699a677e70c105230101bc85da89cffd32ddbf2');
-		</script>
 	</head>
 
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main class="homepage">
 
@@ -59,7 +50,38 @@
 			</section>
 			<!--/end section introduction-->
 
-			<?php require_once('work.php'); ?>
+			<!-- Design fields -->
+			<div id="portfolio" class="row">
+				<div class="works col-sm-12 no-padding">
+					<a href="list-web.php">
+						<section id="bloc-web" class="col-xs-12 col-sm-6 item">
+							<img src="img/icons/web.svg" alt="lien vers les créations webdesign" class="animated infinite">
+							<p class="item-category">Web</p>
+						</section>
+					</a>
+
+					<a href="list-products.php">
+						<section id="bloc-product" class="col-xs-12 col-sm-6 item">
+							<img src="img/icons/produit.svg" alt="lien vers les créations produits" class="animated infinite">
+							<p class="item-category">Produit</p>
+						</section>
+					</a>
+
+					<a href="list-print.php">
+						<section id="bloc-graphism" class="col-xs-12 col-sm-6 item">
+							<img src="img/icons/graphisme.svg" alt="lien vers les créations graphiques" class="animated infinite">
+							<p class="item-category">Print</p>
+						</section>
+					</a>
+
+					<a href="list-retails.php">
+						<section id="bloc-retail-design" class="col-xs-12 col-sm-6 item">
+							<img src="img/icons/espace.svg" alt="lien vers les créations aménagement" class="animated infinite">
+							<p class="item-category">Espace</p>
+						</section>
+					</a>
+				</div>
+			</div>
 
 			<section class="row text-center skills">
 				<div class="col-sm-12">
@@ -91,4 +113,5 @@
 			</section>
 
 		</main>
-<?php require_once('footer.php'); ?>
+
+		<?php require_once('partials/footer.php'); ?>

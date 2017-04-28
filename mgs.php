@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil et MGS Industries</title>
+		<title>Lambert Roudil | MGS Industries</title>
 		<meta name="description" content="Développement du site de MGS Industries, créé et met au point des produits de sécurité antidérapants pour l’industrie et particuliers" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.antiderapant-agrain.com/" target="_blank">
@@ -80,10 +78,11 @@
 				<a href="http://www.antiderapant-agrain.com/" class="btn btn-ghost" target="_blank">
 					<strong>Visite du site</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

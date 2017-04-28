@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Jean Guéno</title>
+		<title>Lambert Roudil | Jean Guéno</title>
 		<meta name="description" content="Développement du site de l’entreprise Jean Guéno qui met au service de ses clients son savoir-faire en matière de construction gros œuvre et maisons individuelles." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-web.php');?>
 
 			<div class="logo-company">
 				<a href="http://www.jeangueno.com" target="_blank"><img src="img/img-web/jeangueno/logo-gueno.png" alt="logo de l'entreprise Jean Gueno, jeangueno.com"></a>
@@ -74,10 +72,11 @@
 				<a href="http://www.jeangueno.com" class="btn btn-ghost" target="_blank"><strong>
 					Visite du site</strong>
 				</a>
+				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

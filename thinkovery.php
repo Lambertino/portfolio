@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Thinkovery</title>
+		<title>Lambert Roudil | Thinkovery</title>
 		<meta name="description" content="Agence nantaise, thinkovery.com vulgarise les savoirs scientifiques les plus divers, via de courtes vidéos donnant la parole à des experts. Ce projet est un travail de mise en page rigoureux (choix de la typographie, rythme des paragraphes etc...) afin de rendre la lecture confortable et plus fluide." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-graphism.php');?>
 
 			<div class="logo-company">
 				<img id="img-thinkovery" src="img/img-graphisme/thinkovery/logo-thinkovery.svg" alt="logo de l'entreprise Thinkovery, magazine culturel">
@@ -77,10 +75,11 @@
 					Ce projet est un travail de mise en page rigoureux (choix de la typographie, rythme des paragraphes etc...)
 					afin de rendre la lecture confortable et fluide.
 				</p>
+				<?php require_once('partials/back-list-print.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

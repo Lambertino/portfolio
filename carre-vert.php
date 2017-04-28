@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet carré vert</title>
+		<title>Lambert Roudil | Carré Vert</title>
 		<meta name="description" content="Propositions 3D originales d'aménagements d'appartement de types 2,3,4,5 dans la résidence Le Carré Vert à Nantes." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-retail.php');?>
 
 			<div class="logo-company">
 				<img src="img/img-espace/lecarrevert/logo-carrevert.svg" alt="logo de la résidence Carré-vert">
@@ -65,15 +63,23 @@
 
 			<div class="description">
 				<h1>Le Carré vert</h1>
-				<p>L'aménagement intérieur ou décoration d'intérieur est une discipline visant à la disposition des espaces bâti intérieur.
-					L'aménagement intérieur est en lien entre la décoration, le design, l'ergonomie et l'architecture.</p>
-				<p>Proposition originale d'aménagements d'appartement de types 2,3,4,5 dans la résidence "Le Carré Vert" à Nantes.</p>
-				<p>“L’architecture actuelle s’occupe de la maison, de la maison ordinaire et courante pour hommes normaux et courants.
-					Elle laisse tomber les palais. Voilà un signe des temps.” <strong>Le Corbusier</strong></p>
+				<p>
+					L'aménagement intérieur ou décoration d'intérieur est une discipline visant à la disposition des
+					espaces bâti intérieur. L'aménagement intérieur est en lien entre la décoration, le design, l'ergonomie
+					et l'architecture.
+				</p>
+				<p>
+					Proposition originale d'aménagements d'appartement de types 2,3,4,5 dans la résidence "Le Carré Vert" à Nantes.
+				</p>
+				<blockquote>
+					<small>L’architecture actuelle s’occupe de la maison, de la maison ordinaire et courante pour hommes normaux
+					et courants. Elle laisse tomber les palais. Voilà un signe des temps.<br><strong>Le Corbusier</strong></small>
+				</blockquote>
+				<?php require_once('partials/back-list-retails.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

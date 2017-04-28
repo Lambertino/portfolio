@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, projet Owly Fruit</title>
+		<title>Lambert Roudil | Owly Fruit</title>
 		<meta name="description" content="Owly fruit est une entreprise philippine spécialisée dans les smoothies, boissons réalisées à partir de fruits et légumes frais." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -15,11 +15,9 @@
 	<body>
 
 		<!-- header -->
-		<?php require_once('header.php'); ?>
+		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-work">
-
-			<?php include('nav-graphism.php');?>
 
 			<div class="logo-company">
 					<img src="img/img-graphisme/owly-fruit/logo-owlyfruit.svg" alt="logo de l'entreprise owly fruit, glaces et smoothies naturels">
@@ -71,12 +69,21 @@
 
 			<div class="description">
 				<h1>Owly fruit !</h1>
-				<p>Owly fruit est une entreprise philippine spécialisée dans les smoothies, boissons réalisées à partir de fruits et légumes frais.</p>
-				<p>L'identité visuelle de la marque "Owly fruit" est unique et lui permet de se distinguer des autres acteurs du marché, nombreux. Celle-ci est déclinée en plusieurs supports: logo, flyers, carte de visite, panneau publicitaire, emballages. Ainsi, la chartre graphique peut être utilisée comme un outil de travail à part entière !</p>
+				<p>
+					Owly fruit est une entreprise philippine spécialisée dans les smoothies, boissons réalisées à partir
+					de fruits et légumes frais.
+				</p>
+				<p>
+					L'identité visuelle de la marque "Owly fruit" est unique et lui permet de se distinguer des autres
+					acteurs du marché, nombreux. Celle-ci est déclinée en plusieurs supports: logo, flyers, carte de visite,
+					panneau publicitaire, emballages. Ainsi, la chartre graphique peut être utilisée comme un outil de
+					travail à part entière !
+				</p>
+				<?php require_once('partials/back-list-print.php'); ?>
 			</div>
 
 		</main>
 
-<?php
-	include('footer.php');
-?>
+		<?php
+			include('partials/footer.php');
+		?>

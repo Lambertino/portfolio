@@ -20,6 +20,13 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
+				<img src="img/img-web/thumbnails/astre.jpg" alt="Découvrez le projet de design web Astre, entreprise de solution de flux de transport."/>
+			  	<figcaption>
+			  	  	<h3>Astre</h3>
+			  	  	<p>Solution des flux du transport.</p>
+			  	</figcaption><a href="astre.php"></a>
+			</figure>
+			<figure class="item">
 				<img src="img/img-web/thumbnails/lowcost-driver.jpg" alt="Découvrez le projet de design web Lowcost Driver !"/>
 			  	<figcaption>
 			  	  	<h3>Lowcost Driver</h3>

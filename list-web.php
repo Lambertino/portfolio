@@ -20,6 +20,13 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
+				<img src="img/img-web/thumbnails/aidamt.jpg" alt="Découvrez le projet de web design AIDAMT, médecine du travail dans les Côtes d'Armor."/>
+			  	<figcaption>
+			  	  	<h3>AIDAMT</h3>
+			  	  	<p>Médecine du travail dans les Côtes d'Armor (22).</p>
+			  	</figcaption><a href="aidamt.php"></a>
+			</figure>
+			<figure class="item">
 				<img src="img/img-web/thumbnails/astre.jpg" alt="Découvrez le projet de design web Astre, entreprise de solution de flux de transport."/>
 			  	<figcaption>
 			  	  	<h3>Astre</h3>
@@ -44,7 +51,7 @@
 				<img src="img/img-web/thumbnails/amebat.jpg" alt="Découvrez le projet de design web de l'AMEBAT."/>
 			  	<figcaption>
 			  	  	<h3>AMEBAT</h3>
-			  	  	<p>Médecine du travail.</p>
+			  	  	<p>Médecine du travail à Nantes (44).</p>
 			  	</figcaption><a href="amebat.php"></a>
 			</figure>
 			<figure class="item">

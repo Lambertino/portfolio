@@ -75,9 +75,6 @@
 					l'essentiel au visiteur et client potentiel le plus directement, d'où le choix d'un One-Page.
 				</p>
 				<p>HTML, CSS, jQuery, Bootstrap</p>
-				<a href="http://www.toog.fr" class="btn btn-ghost" target="_blank">
-					<strong>Visite du site</strong>
-				</a>
 				<?php require_once('partials/back-list-web.php'); ?>
 			</div>
 

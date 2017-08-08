@@ -20,6 +20,13 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
+				<img src="img/img-web/thumbnails/bretagne-vip.jpg" alt="Projet Bretagne VIP représenté par un jeune homme brun en costume cravate, cheveux dans le vent."/>
+			  	<figcaption>
+			  	  	<h3>Bretagne VIP</h3>
+			  	  	<p>Conciergerie privée et professionnelle du grand Ouest.</p>
+			  	</figcaption><a href="bretagne-vip.php"></a>
+			</figure>
+			<figure class="item">
 				<img src="img/img-web/thumbnails/aidamt.jpg" alt="Découvrez le projet de web design AIDAMT, médecine du travail dans les Côtes d'Armor."/>
 			  	<figcaption>
 			  	  	<h3>AIDAMT</h3>

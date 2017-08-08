@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil | AIDAMT</title>
-		<meta name="description" content="Webdesign du site de l'AIDAMT, la médecine du travail dans les Côtes d'Armor." />
+		<title>Lambert Roudil | Bretagne VIP</title>
+		<meta name="description" content="Webdesign et développement du site Bretagne VIP, conciergerie privée et professionnelle du grand Ouest." />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta name="theme-color" content="#59ABE3"/>
@@ -20,9 +20,9 @@
 		<main id="pages-work">
 
 			<div class="logo-company">
-				<a href="http://www.aidamt.fr/" target="_blank">
-					<img src="img/img-web/aidamt/logotype-aidamt.svg"
-						 alt="AIDAMT, la médecine du travail dans les côtes d'Armor"
+				<a href="http://bretagnevip.com/" target="_blank">
+					<img src="img/img-web/bretagne-vip/logotype-bretagne-vip.svg"
+						 alt="Bretagne VIP, conciergerie privée et professionnelle du grand Ouest."
 						 width="250">
 				</a>
 			</div><br>
@@ -40,16 +40,16 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="img/img-web/aidamt/mockup.jpg" alt="interface du site intranet de aidamt annuaire sur un ordinateur de bureau blanc."/>
+						<img src="img/img-web/bretagne-vip/mockup.jpg" alt="interface du site intranet de aidamt annuaire sur un ordinateur de bureau blanc."/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/aidamt/mockup-1.jpg" alt="interface du site intranet de aidamt annuaire sur un ordinateur de bureau blanc."/>
+						<img src="img/img-web/bretagne-vip/mockup-1.jpg" alt="interface du site intranet de aidamt annuaire sur un ordinateur de bureau blanc."/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/aidamt/mockup-2.jpg" alt="interface du site intranet de aidamt annuaire."/>
+						<img src="img/img-web/bretagne-vip/mockup-2.jpg" alt="interface du site intranet de aidamt annuaire."/>
 					</div>
 					<div class="item">
-						<img src="img/img-web/aidamt/mockup-3.jpg" alt="interface du site intranet de aidamt portail."/>
+						<img src="img/img-web/bretagne-vip/mockup-3.jpg" alt="interface du site intranet de aidamt portail."/>
 					</div>
 				</div>
 
@@ -66,21 +66,17 @@
 			<!-- /end carousel project -->
 
 			<div class="description">
-				<h1>Aidamt</h1>
+				<h1>Bretagne VIP</h1>
 				<p>
-					Webdesign et intégration du site de l'AIDAMT, médecine du travail dans les Côtes d'Amor (22). Cette
-					nouvelle plateforme permet aux entreprises d'adhérer facilement à l'association et de soumettre leur
-					demande de visite personnalisée directement.
+					Webdesign, intégration et développement web du site de Bretagne VIP.
 				</p>
 				<p>
-					L’AIDAMT, Service Interentreprises de Santé au Travail est une association d’employeurs, à but non lucratif.
-					L'AIDAMT est agréée par le Ministère du Travail pour assurer sa mission sur le département des Côtes
-					d'Armor à l'exception de l'arrondissement de Dinan. Elle emploie plus de 50 intervenants "terrain"
-					(médecins, infirmiers, ASST, IPRP) et 35 assistantes médicales et personnels administratifs.
+					Bretagne VIP est la conciergerie privée et professionnelle du grand Ouest au service des particuliers,
+					entreprises, administrations et collectivités.
 				</p>
-				<p>Symfony, HTML-5, SCSS, jQuery</p>
-				<a href="http://www.aidamt.fr/" class="btn btn-ghost disabled" target="_blank">
-					<strong>Bientôt en ligne</strong>
+				<p>Bolt, Twig, HTML-5, SCSS, jQuery</p>
+				<a href="http://bretagnevip.com/" class="btn btn-ghost" target="_blank">
+					<strong>Visite du site</strong>
 				</a>
 				<?php require_once('partials/back-list-web.php'); ?>
 			</div>

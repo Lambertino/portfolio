@@ -20,6 +20,13 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
+				<img src="img/img-web/thumbnails/regional-partner.jpg" alt="Projet Bretagne VIP représenté par un jeune homme brun en costume cravate, cheveux dans le vent."/>
+			  	<figcaption>
+			  	  	<h3>Regional Partner</h3>
+			  	  	<p>Service d'aide au développement et à l'implantation d'entreprises.</p>
+			  	</figcaption><a href="regional-partner.php"></a>
+			</figure>
+			<figure class="item">
 				<img src="img/img-web/thumbnails/bretagne-vip.jpg" alt="Projet Bretagne VIP représenté par un jeune homme brun en costume cravate, cheveux dans le vent."/>
 			  	<figcaption>
 			  	  	<h3>Bretagne VIP</h3>

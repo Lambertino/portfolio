@@ -2,7 +2,7 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | Design graphique</title>
-		<meta name="description" content="" />
+		<meta name="description" content="Lambert est graphiste, infographiste : il prépare et réalise tous type de supports de communication visuelle comme les cartes de visite, flyers, documents commerciaux etc.." />
 		<meta charset="UTF-8">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">

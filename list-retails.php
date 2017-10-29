@@ -2,7 +2,7 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | Design d'espace</title>
-		<meta name="description" content="" />
+		<meta name="description" content="Designer d'espace ou architecte d'intérieur, Lambert Roudil vous expose une partie de ses travaux appliqués dans des boutiques et hôtels." />
 		<meta charset="UTF-8">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">

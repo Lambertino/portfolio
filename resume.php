@@ -81,18 +81,39 @@
 						<p class="uppercase"><strong>Mes expériences</strong></p>
 					</div>
 					<div class="col-sm-6">
+						<p><strong>Webdesigner / Intégrateur / Développeur</strong></p>
+						<p>Regional Partner</p>
+						<p><small><em>
+							Wireframes (Sketch) ;<br>
+							Prototypage (InVision) ;<br>
+							Maquettes (Sketch) ;<br>
+							Intégration web (HTML-5, CSS3, jQuery, Bootstrap, Material) ;<br>
+							Print (mise en page de documents commerciaux).
+						</em></small></p>
+					</div>
+					<div class="col-sm-3">
+						<p><em>En poste depuis mai 2017</em></p>
+					</div>
+				</div>
+			</div>
+
+			<br><br>
+
+			<div class="row">
+				<div class="container">
+					<div class="col-sm-offset-3 col-sm-6">
 						<p><strong>Webdesigner / Intégrateur web</strong></p>
 						<p>Agence Toog</p>
 						<p><small><em>
 							Wireframes (Sketch, Illustrator ou Photoshop) ;<br>
 							Prototypage (InVision) ;<br>
 							Maquettes (Sketch, Illustrator ou Photoshop) ;<br>
-							Intégration web (HTML5, CSS3, jQuery, Bootstrap) ;<br>
+							Intégration web (HTML-5, CSS3, jQuery, Bootstrap) ;<br>
 							Travail en équipe (Git).
 						</em></small></p>
 					</div>
 					<div class="col-sm-3">
-						<p><em>En poste depuis mai 2015</em></p>
+						<p><em>Mai 2015 - Avril 2017</em></p>
 					</div>
 				</div>
 			</div>

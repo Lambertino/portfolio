@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="fr" class="no-js">
 	<head>
-		<title>Lambert Roudil, designer global-Portfolio</title>
+		<title>Lambert Roudil, webdesigner, intégrateur - Portfolio</title>
 		<meta name="description" content="Lambert Roudil, designer global vous propose la construction de l'identité visuelle de votre entreprise ainsi que le développement de votre site internet. " />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -34,7 +34,7 @@
 						<h1>Lambert Roudil</h1>
 						<p>
 							Je suis designer global - graphiste, webdesigner, intégrateur, designer produit et d'espace -
-							nantais, passionné par l'image, le web et par conséquent, par mon travail.
+							passionné par l'image, le web et par conséquent, par mon travail.
 						</p>
 						<h2>Bienvenue sur mon portfolio !</h2>
 						<p><strong>Découvrez le par-ici</strong></p>
@@ -103,7 +103,11 @@
 
 						<section class="item col-sm-6">
 							<h3>2016</h3>
-							<p>Webdesigner / intégrateur<br>au sein de l'agence nantaise <a href="http://www.toog.fr" target="_blank">Toog</a></p>
+							<p>Webdesigner / intégrateur<br>au sein de l'agence nantaise Toog</p>
+						</section>
+						<section class="item col-sm-12 last">
+							<h3>2017</h3>
+							<p>Webdesigner / Intégrateur / Développeur<br>dans l'entreprise Regional Partner à Vannes</p>
 						</section>
 						<div class="row text-center">
 							<a href="resume.php" class="btn btn-ghost">En savoir plus</a>

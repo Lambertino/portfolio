@@ -2,7 +2,7 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | Design de produit</title>
-		<meta name="description" content="" />
+		<meta name="description" content="Le designer de produit créé les formes et volumes des biens de consommation et d'équipement de manière industrielle ou artisanale." />
 		<meta charset="UTF-8">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">

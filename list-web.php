@@ -2,7 +2,7 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | Web Design</title>
-		<meta name="description" content="" />
+		<meta name="description" content="Lambert Roudil est webdesigner, intégrateur et développeur web. Découvrez une sélection de ses travaux sur cette page." />
 		<meta charset="UTF-8">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
@@ -20,7 +20,14 @@
 
 		<main id="pages-list" class="text-center">
 			<figure class="item">
-				<img src="img/img-web/thumbnails/regional-partner.jpg" alt="Projet Bretagne VIP représenté par un jeune homme brun en costume cravate, cheveux dans le vent."/>
+				<img src="img/img-web/thumbnails/lecaninole.jpg" alt="Réalisation du blog lecaninole.fr, le blog des petits plaisirs éco-responsables."/>
+				<figcaption>
+					<h3>Lecaninole</h3>
+					<p>Le blog des petits plaisirs responsables.</p>
+				</figcaption><a href="lecaninole.php"></a>
+			</figure>
+			<figure class="item">
+				<img src="img/img-web/thumbnails/regional-partner.jpg" alt="Regional Partner est un service d'appui aux organismes économiques."/>
 			  	<figcaption>
 			  	  	<h3>Regional Partner</h3>
 			  	  	<p>Service d'aide au développement et à l'implantation d'entreprises.</p>

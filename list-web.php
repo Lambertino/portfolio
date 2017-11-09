@@ -3,14 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Web Design</title>
 		<meta name="description" content="Lambert Roudil est webdesigner, intégrateur et développeur web. Découvrez une sélection de ses travaux sur cette page." />
-		<meta charset="UTF-8">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente l'ensemble de ses créations de sites internets." />
+		<meta property="og:url" content="http://www.lambertroudil.com/list-web.php" />
 	</head>
 
 	<body>
@@ -19,6 +14,20 @@
 		<?php require_once('partials/header.php'); ?>
 
 		<main id="pages-list" class="text-center">
+			<figure class="item">
+				<img src="img/img-web/thumbnails/vipe-vannes.jpg" alt="Création de la landing page VIPE Vannes, promouvant le territoire de Vannes."/>
+				<figcaption>
+					<h3>VIPE Vannes</h3>
+					<p>L'agence d'accompagnement dans la création d'entreprise innovante</p>
+				</figcaption><a href="vipe-vannes.php"></a>
+			</figure>
+			<figure class="item">
+				<img src="img/img-web/thumbnails/setting-up-france.jpg" alt="Réalisation du blog lecaninole.fr, le blog des petits plaisirs éco-responsables."/>
+				<figcaption>
+					<h3>Set Up In France</h3>
+					<p>Le programme de détection de projets d’implantation d’entreprises.</p>
+				</figcaption><a href="set-up-in-france.php"></a>
+			</figure>
 			<figure class="item">
 				<img src="img/img-web/thumbnails/lecaninole.jpg" alt="Réalisation du blog lecaninole.fr, le blog des petits plaisirs éco-responsables."/>
 				<figcaption>

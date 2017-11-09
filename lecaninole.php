@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Lecaninole</title>
 		<meta name="description" content="Création du blog lecaninole.fr, le blog des petits plaisirs éco-responsables" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa création de site internet pour la blogueuse Léna Nicole, lecaninole.fr" />
+		<meta property="og:url" content="http://www.lambertroudil.com/lecaninole.php" />
 	</head>
 
 	<body>

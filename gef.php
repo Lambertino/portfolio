@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Global Estuaries Forum</title>
 		<meta name="description" content="Développement du site de Global Estuaries Forum, espace pour l'ensemble des acteurs impliqués dans la gestion des estuaires à travers le monde." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente le site de Global Estuaries Forum, espace pour l'ensemble des acteurs impliqués dans la gestion des estuaires à travers le monde." />
+		<meta property="og:url" content="http://www.lambertroudil.com/gef.php" />
 	</head>
 
 	<body>

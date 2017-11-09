@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Design textile Cult'</title>
 		<meta name="description" content="Cult' est un panel d'illustrations se présentant sous la forme de pochoir représentant des personnalités dans le milieu musical. Cette gamme de tee-shirt a été développé par la marque Exxo7" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa ligne de tee-shirt pour la marque Exxo7." />
+		<meta property="og:url" content="http://www.lambertroudil.com/cult.php" />
 	</head>
 
 	<body>

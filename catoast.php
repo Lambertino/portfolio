@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Projet étudiant ça Toast</title>
 		<meta name="description" content="Le grille pain ça Toast est en réalité un grille croque monsieur pour remplacer le banal sandwich par un déjeuner chaud dans la cafétéria ou autre lieu de pause. Il est facilement transportable, léger et amuse par son aspect pop" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente la création du grille pain Ça toast." />
+		<meta property="og:url" content="http://www.lambertroudil.com/catoast.php" />
 	</head>
 
 		<body>

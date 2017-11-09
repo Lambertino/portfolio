@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Regional Partner</title>
 		<meta name="description" content="Création du site Regional Partner, service d'aide au développement et à l'implantation d'entreprises." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa création du site internet de l'entreprise Regional Partner." />
+		<meta property="og:url" content="http://www.lambertroudil.com/regional-partner.php" />
 	</head>
 
 	<body>

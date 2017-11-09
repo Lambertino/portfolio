@@ -3,14 +3,9 @@
 	<head>
 		<title>Lambert Roudil | 5e Avenue</title>
 		<meta name="description" content="5e avenue est une galerie marchande située en plein centre ville de St Nazaire. Il s'agit dune surface de 1600m2 sur deux niveaux qui permet de s'exprimer, de circuler, d'animer et de présenter." />
-		<meta charset="UTF-8">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, designer, présente le travail d'aménagement d'intérieur du magasin 5e Avenue à St Nazaire." />
+		<meta property="og:url" content="http://www.lambertroudil.com/5e-avenue.php" />
 	</head>
 
 	<body>

@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Grum'</title>
 		<meta name="description" content="La gamme Grum’ composée d’une chaise, d’une assise, d’un bureau et d’un fauteuil est une création en collaboration avec le designer Jean-Marie GUENO. Les recherches quant à cette gamme sont orientées sur l’élégance et la distinction sur une base écologique. En effet, il s’agit de n’utiliser pour ces mobiliers ni colle, ni clous, ni vis afin que l’usager puisse monter et démonter l'assise aisément sans outil." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa gamme de mobilier : Grum'." />
+		<meta property="og:url" content="http://www.lambertroudil.com/grum.php" />
 	</head>
 
 	<body>

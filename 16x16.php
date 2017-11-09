@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil et Seize par Seize</title>
 		<meta name="description" content="Développement du site d'actualités musicales seize par seize" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, webdesigner, a développé le site d'actualités musicales seize par seize." />
+		<meta property="og:url" content="http://www.lambertroudil.com/16x16.php" />
 	</head>
 
 	<body>

@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | AIDAMT</title>
 		<meta name="description" content="Webdesign du site de l'AIDAMT, la médecine du travail dans les Côtes d'Armor." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente le site de l'AIDAMT, médecine du travail dans les Côtes d'Armor." />
+		<meta property="og:url" content="http://www.lambertroudil.com/aidamt.php" />
 	</head>
 
 	<body>

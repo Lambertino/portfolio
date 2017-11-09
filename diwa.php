@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Projet humanitaire Diwa</title>
 		<meta name="description" content="Diwa est une entreprise sociale faisant partie de l'ONG Gawad Kalinga basée aux Philippines. Elle s'est spécialisée dans les huiles essentielles naturelles et dans les huiles de massage. La construction de l'identité de la marque Diwa s'est fondée sur la simplicité et la clarté afin d'utiliser une image identifiable et mémorisable en une seconde." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente la création de la marque Diwa, les huiles essentielles naturelles philippines." />
+		<meta property="og:url" content="http://www.lambertroudil.com/diwa.php" />
 	</head>
 
 	<body>

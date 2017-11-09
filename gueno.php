@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Jean-Marie Guéno</title>
 		<meta name="description" content="Développement du site vitrine du designer Jean-Marie Guéno,www.jeanmariegueno.com, diplômé en arts appliqués de l’école Pivaut. Le designer, à la croisée des chemins entre le monde de l’art et celui l'entreprise, trouve son inspiration au cœur du pays guérandais entre marais salants et cité médiévale." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa création de site internet pour le designer Jean-Marie Guéno." />
+		<meta property="og:url" content="http://www.lambertroudil.com/gueno.php" />
 	</head>
 
 	<body>

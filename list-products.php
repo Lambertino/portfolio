@@ -3,14 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Design de produit</title>
 		<meta name="description" content="Le designer de produit créé les formes et volumes des biens de consommation et d'équipement de manière industrielle ou artisanale." />
-		<meta charset="UTF-8">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente l'ensemble de ses créations dans le domaine du design de produit." />
+		<meta property="og:url" content="http://www.lambertroudil.com/list-products.php" />
 	</head>
 
 	<body>

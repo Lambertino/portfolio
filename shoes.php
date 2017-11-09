@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Shoes design</title>
 		<meta name="description" content="Le styliste modéliste imagine et crée les modèles qui composent les collections de demain. Il a la responsabilité de développer une ligne complète de produits en correspondance avec l’image de la marque en adoptant une méthodologie stricte. Lambert Roudil vous présente ses modèles créés pour Miss Coquines." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil vous présente ses créations de chaussures pour femme." />
+		<meta property="og:url" content="http://www.lambertroudil.com/shoes.php" />
 	</head>
 
 	<body>

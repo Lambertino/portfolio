@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Thinkovery</title>
 		<meta name="description" content="Agence nantaise, thinkovery.com vulgarise les savoirs scientifiques les plus divers, via de courtes vidéos donnant la parole à des experts. Ce projet est un travail de mise en page rigoureux (choix de la typographie, rythme des paragraphes etc...) afin de rendre la lecture confortable et plus fluide." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil vous présente sa création de mise en page pour l'éditeur nantais Thinkovery." />
+		<meta property="og:url" content="http://www.lambertroudil.com/thinkovery.php" />
 	</head>
 
 	<body>

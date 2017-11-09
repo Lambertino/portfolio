@@ -2,14 +2,10 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | les French touffes</title>
-		<meta name="description" content="Élaboration du logotype de la marque française les French touffes lancée par la mannequin parisienne" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<meta name="description" content="Élaboration du logotype de la marque française les French touffes lancée par la mannequin parisienne Aude Auffret" />
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente la marque française les French touffes lancée par la mannequin parisienne Aude Auffret." />
+		<meta property="og:url" content="http://www.lambertroudil.com/french-touffes.php" />
 	</head>
 
 	<body>

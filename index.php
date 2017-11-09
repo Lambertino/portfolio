@@ -3,18 +3,9 @@
 	<head>
 		<title>Lambert Roudil, webdesigner, intégrateur - Portfolio</title>
 		<meta name="description" content="Lambert Roudil, designer global vous propose la construction de l'identité visuelle de votre entreprise ainsi que le développement de votre site internet. " />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
-
-		<meta property="og:title" content="Lambert Roudil, designer global vous propose la construction de l'identité visuelle de votre entreprise ainsi que le développement de votre site internet." />
-		<meta property="og:type" content="website" />
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, designer global vous présente l'ensemble de ses créations web, print, produit et espace." />
 		<meta property="og:url" content="http://www.lambertroudil.com/" />
-		<meta property="og:image" content="http://www.lambertroudil.com/img/og-image.jpg" />
 	</head>
 
 	<body>

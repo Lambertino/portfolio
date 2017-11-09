@@ -2,14 +2,10 @@
 	<html lang="fr" class="no-js">
 	<head>
 		<title>Lambert Roudil | CV</title>
-		<meta name="description" content="Lambert Roudil vous présente ses diplômes, ses expériences et ses compétences." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<meta name="description" content="Lambert Roudil vous présente ses diplômes, ses expériences et ses compétences dans le digital." />
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil vous présente ses diplômes, ses expériences et ses compétences dans le digital." />
+		<meta property="og:url" content="http://www.lambertroudil.com/resume.php" />
 	</head>
 
 	<body>

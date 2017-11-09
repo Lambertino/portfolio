@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Mobiliers sur-mesure</title>
 		<meta name="description" content="Le retail-design est la création d’espace de commerce ou plus précisément l'étude de l’agencement intérieur pour valoriser les produits vendus, soigner l’esthétisme extérieur pour inciter les consommateurs à entrer. Le designer Lambert Roudil vous présente l'ensemble de ses collections de mobilier destinées aux magasins." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil vous présente ses créations d'aménagements d'intérieurs." />
+		<meta property="og:url" content="http://www.lambertroudil.com/retail.php" />
 	</head>
 
 	<body>

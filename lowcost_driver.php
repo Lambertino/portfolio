@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Lowcost Driver</title>
 		<meta name="description" content="Webdesign du site Lowcost Driver, le VTC à petits prix dans le Morbihan." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa création de site internet pour l'entreprise Lowcost Driver." />
+		<meta property="og:url" content="http://www.lambertroudil.com/lowcost_driver.php" />
 	</head>
 
 	<body>

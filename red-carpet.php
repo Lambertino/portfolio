@@ -3,13 +3,9 @@
 	<head>
 		<title>Lambert Roudil | Red Carpet</title>
 		<meta name="description" content="Red Carpet est une entreprise sociale liée à l'ONG Gawad Kalinga basée aux Philippines." />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<meta name="theme-color" content="#59ABE3"/>
-
-		<link rel="icon" type="image/png" href="img/favicon.ico" >
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="web/styles/screen.min.css">
+		<?php require_once('partials/head.php'); ?>
+		<meta property="og:title" content="Lambert Roudil, vous présente sa création du logotype Red Carpet, entreprise philippine." />
+		<meta property="og:url" content="http://www.lambertroudil.com/red-carpet.php" />
 	</head>
 
 	<body>

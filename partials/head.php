@@ -13,4 +13,4 @@
 <link rel="stylesheet" href="web/styles/screen.min.css">
 
 <meta property="og:type" content="website" />
-<meta property="og:image" content="http://www.lambertroudil.com/img/og-image.jpg" />
+<meta property="og:image" content="/img/og-image.jpg" />
